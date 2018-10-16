@@ -1,0 +1,2066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8C26412175E7DE00CF0E4A /* ObjCDeepDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C26372175E7DE00CF0E4A /* ObjCDeepDynamic.framework */; };
+		9C8C265D2175E7ED00CF0E4A /* ObjCDeepDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C26542175E7ED00CF0E4A /* ObjCDeepDynamic.framework */; };
+		9C8C26862175E80A00CF0E4A /* ObjCDeepDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C267D2175E80A00CF0E4A /* ObjCDeepDynamic.framework */; };
+		9C8C269F2175EB7E00CF0E4A /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C269C2175EB7600CF0E4A /* fishhook.c */; };
+		9C8C26A02175EB7E00CF0E4A /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C269C2175EB7600CF0E4A /* fishhook.c */; };
+		9C8C26A12175EB7F00CF0E4A /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C269C2175EB7600CF0E4A /* fishhook.c */; };
+		9C8C26A22175EB7F00CF0E4A /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C269C2175EB7600CF0E4A /* fishhook.c */; };
+		9C8C26A32175EBB000CF0E4A /* MacroUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269B2175EB7600CF0E4A /* MacroUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26A42175EBB000CF0E4A /* MacroUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269B2175EB7600CF0E4A /* MacroUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26A52175EBB100CF0E4A /* MacroUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269B2175EB7600CF0E4A /* MacroUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26A62175EBB100CF0E4A /* MacroUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269B2175EB7600CF0E4A /* MacroUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26A72175EBB500CF0E4A /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269D2175EB7600CF0E4A /* fishhook.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26A82175EBB500CF0E4A /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269D2175EB7600CF0E4A /* fishhook.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26A92175EBB600CF0E4A /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269D2175EB7600CF0E4A /* fishhook.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26AA2175EBB600CF0E4A /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269D2175EB7600CF0E4A /* fishhook.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26AB2175EBB900CF0E4A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269E2175EB7600CF0E4A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26AC2175EBBA00CF0E4A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269E2175EB7600CF0E4A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26AD2175EBBA00CF0E4A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269E2175EB7600CF0E4A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26AE2175EBBA00CF0E4A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269E2175EB7600CF0E4A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26BD2175EBE800CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26BE2175EBE800CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26BF2175EBE800CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26C02175EBE800CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
+		9C8C26C12175EBE800CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
+		9C8C26C22175EBE800CF0E4A /* ObjCDynamicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B92175EBE500CF0E4A /* ObjCDynamicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26C32175EBE800CF0E4A /* ObjCDynamicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B42175EBE500CF0E4A /* ObjCDynamicObject.m */; };
+		9C8C26C42175EBE800CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BC2175EBE500CF0E4A /* ObjCDynamicObject+Subclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26C52175EBE800CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */; };
+		9C8C26C62175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26AF2175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26C72175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */; };
+		9C8C26C82175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */; };
+		9C8C26C92175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26CA2175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */; };
+		9C8C26CB2175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26CD2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26CE2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
+		9C8C26CF2175EBE900CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
+		9C8C26D02175EBE900CF0E4A /* ObjCDynamicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B92175EBE500CF0E4A /* ObjCDynamicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26D12175EBE900CF0E4A /* ObjCDynamicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B42175EBE500CF0E4A /* ObjCDynamicObject.m */; };
+		9C8C26D22175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BC2175EBE500CF0E4A /* ObjCDynamicObject+Subclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26D32175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */; };
+		9C8C26D42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26AF2175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26D52175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */; };
+		9C8C26D62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */; };
+		9C8C26D72175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26D82175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */; };
+		9C8C26D92175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26DA2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26DB2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26DC2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
+		9C8C26DD2175EBE900CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
+		9C8C26DE2175EBE900CF0E4A /* ObjCDynamicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B92175EBE500CF0E4A /* ObjCDynamicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26DF2175EBE900CF0E4A /* ObjCDynamicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B42175EBE500CF0E4A /* ObjCDynamicObject.m */; };
+		9C8C26E02175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BC2175EBE500CF0E4A /* ObjCDynamicObject+Subclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26E12175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */; };
+		9C8C26E22175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26AF2175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26E32175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */; };
+		9C8C26E42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */; };
+		9C8C26E52175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26E62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */; };
+		9C8C26E72175EBEA00CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26E82175EBEA00CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26E92175EBEA00CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26EA2175EBEA00CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
+		9C8C26EB2175EBEA00CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
+		9C8C26EC2175EBEA00CF0E4A /* ObjCDynamicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B92175EBE500CF0E4A /* ObjCDynamicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26ED2175EBEA00CF0E4A /* ObjCDynamicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B42175EBE500CF0E4A /* ObjCDynamicObject.m */; };
+		9C8C26EE2175EBEA00CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BC2175EBE500CF0E4A /* ObjCDynamicObject+Subclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26EF2175EBEA00CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */; };
+		9C8C26F02175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26AF2175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C8C26F12175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */; };
+		9C8C26F22175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */; };
+		9C8C26F32175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26F42175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */; };
+		9C8C26FC2175EC7A00CF0E4A /* ObjCDeepDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26FD2175EC7A00CF0E4A /* ObjCDeepDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26FE2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26FF2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C27032175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */; };
+		9C8C27042175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */; };
+		9C8C27052175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */; };
+		9C8C27062175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
+		9C8C27072175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
+		9C8C27082175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
+		9C8C270E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
+		9C8C270F2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
+		9C8C27112175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
+		9C8C27122175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
+		9C8C27132175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
+		9C8C27152175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
+		9C8C27172175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */; };
+		9C8C27182175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */; };
+		9C8C27192175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */; };
+		9C8C271B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
+		9C8C271C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
+		9C8C271D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
+		9C8C271E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m */; };
+		9C8C27252175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */; };
+		9C8C27262175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */; };
+		9C8C27282175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */; };
+		9C8C272A2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */; };
+		9C8C272B2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */; };
+		9C8C272C2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */; };
+		9C8C27322175F83200CF0E4A /* ArchivableEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27312175F83200CF0E4A /* ArchivableEnum.swift */; };
+		9C8C27332175F83200CF0E4A /* ArchivableEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27312175F83200CF0E4A /* ArchivableEnum.swift */; };
+		9C8C27342175F83200CF0E4A /* ArchivableEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27312175F83200CF0E4A /* ArchivableEnum.swift */; };
+		9C8C27362175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27352175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift */; };
+		9C8C27372175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27352175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift */; };
+		9C8C27382175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27352175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift */; };
+		9C8C273F2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */; };
+		9C8C27402175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */; };
+		9C8C27412175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */; };
+		9C8C27432176085E00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27422176085D00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */; };
+		9C8C274621761AD100CF0E4A /* ArchivableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */; };
+		9C8C274721761AD200CF0E4A /* ArchivableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */; };
+		9C8C274821761AD300CF0E4A /* ArchivableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */; };
+		9C8C274B21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C274921761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h */; };
+		9C8C274C21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274A21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m */; };
+		9C8C274F21761DBD00CF0E4A /* _OBJCDDCGVectorValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C274D21761DBD00CF0E4A /* _OBJCDDCGVectorValue.h */; };
+		9C8C275021761DBD00CF0E4A /* _OBJCDDCGVectorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274E21761DBD00CF0E4A /* _OBJCDDCGVectorValue.m */; };
+		9C8C275321761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C275121761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.h */; };
+		9C8C275421761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C275221761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.m */; };
+		9C8C275B2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C275A2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m */; };
+		9C8C275C2176437200CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27242175F58800CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m */; };
+		9C8C275D2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27242175F58800CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m */; };
+		9C8C275E2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27242175F58800CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m */; };
+		9C8C2760217643BA00CF0E4A /* ObjCDynamicCoding-AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C275F217643BA00CF0E4A /* ObjCDynamicCoding-AppKit.m */; };
+		9C8C27632176468600CF0E4A /* _OBJCDDValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27612176468600CF0E4A /* _OBJCDDValue.h */; };
+		9C8C27642176468600CF0E4A /* _OBJCDDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27622176468600CF0E4A /* _OBJCDDValue.m */; };
+		9C8C27672176482200CF0E4A /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
+		9C8C27682176482200CF0E4A /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */; };
+		9C8C27692176482600CF0E4A /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
+		9C8C276A2176482700CF0E4A /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
+		9C8C276B2176482700CF0E4A /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C8C26422175E7DE00CF0E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8C262C2175E7C900CF0E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8C26362175E7DE00CF0E4A;
+			remoteInfo = "ObjCDeepDynamic-macOS";
+		};
+		9C8C265E2175E7ED00CF0E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8C262C2175E7C900CF0E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8C26532175E7ED00CF0E4A;
+			remoteInfo = "ObjCDeepDynamic-iOS";
+		};
+		9C8C26872175E80A00CF0E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8C262C2175E7C900CF0E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8C267C2175E80A00CF0E4A;
+			remoteInfo = "ObjCDeepDynamic-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C8C26372175E7DE00CF0E4A /* ObjCDeepDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjCDeepDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C26402175E7DE00CF0E4A /* ObjCDeepDynamic-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjCDeepDynamic-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C26542175E7ED00CF0E4A /* ObjCDeepDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjCDeepDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C265C2175E7ED00CF0E4A /* ObjCDeepDynamic-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjCDeepDynamic-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C26702175E7FA00CF0E4A /* ObjCDeepDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjCDeepDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C267D2175E80A00CF0E4A /* ObjCDeepDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjCDeepDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C26852175E80A00CF0E4A /* ObjCDeepDynamic-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjCDeepDynamic-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C26952175E9EB00CF0E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8C26982175E9EB00CF0E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8C269A2175EB3F00CF0E4A /* private.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = private.modulemap; sourceTree = "<group>"; };
+		9C8C269B2175EB7600CF0E4A /* MacroUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroUtilities.h; sourceTree = "<group>"; };
+		9C8C269C2175EB7600CF0E4A /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		9C8C269D2175EB7600CF0E4A /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		9C8C269E2175EB7600CF0E4A /* metamacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		9C8C26AF2175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicPropertySynthesizer.h; sourceTree = "<group>"; };
+		9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicCoding.m; sourceTree = "<group>"; };
+		9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicPropertyAccessors.m; sourceTree = "<group>"; };
+		9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCDynamicPropertySynthesizer+Internal.h"; sourceTree = "<group>"; };
+		9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicCoder.m; sourceTree = "<group>"; };
+		9C8C26B42175EBE500CF0E4A /* ObjCDynamicObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicObject.m; sourceTree = "<group>"; };
+		9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCDynamicPropertySynthesizing.mm; sourceTree = "<group>"; };
+		9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicCoder.h; sourceTree = "<group>"; };
+		9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicPropertySynthesizing.h; sourceTree = "<group>"; };
+		9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCDynamicPropertySynthesizer.mm; sourceTree = "<group>"; };
+		9C8C26B92175EBE500CF0E4A /* ObjCDynamicObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicObject.h; sourceTree = "<group>"; };
+		9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicCoding.h; sourceTree = "<group>"; };
+		9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCDynamicCoding+Internal.h"; sourceTree = "<group>"; };
+		9C8C26BC2175EBE500CF0E4A /* ObjCDynamicObject+Subclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCDynamicObject+Subclass.h"; sourceTree = "<group>"; };
+		9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDeepDynamic.h; sourceTree = "<group>"; };
+		9C8C27002175EE7400CF0E4A /* public.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = public.modulemap; sourceTree = "<group>"; };
+		9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjCDynamicCoderTests.swift; sourceTree = "<group>"; };
+		9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicPropertySynthesizingTests.m; sourceTree = "<group>"; };
+		9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-QuartzCore.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-QuartzCore.m"; sourceTree = SOURCE_ROOT; };
+		9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-AVFoundation.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-AVFoundation.m"; sourceTree = SOURCE_ROOT; };
+		9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-UIKit.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-UIKit.m"; sourceTree = SOURCE_ROOT; };
+		9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m"; sourceTree = SOURCE_ROOT; };
+		9C8C270D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-AppKit.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-AppKit.m"; sourceTree = SOURCE_ROOT; };
+		9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-AVFoundation.m"; sourceTree = "<group>"; };
+		9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-UIKit.m"; sourceTree = "<group>"; };
+		9C8C27242175F58800CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-CoreGraphics(CocoaTouch).m"; sourceTree = "<group>"; };
+		9C8C27312175F83200CF0E4A /* ArchivableEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivableEnum.swift; sourceTree = "<group>"; };
+		9C8C27352175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivableEnumObjCBridged.swift; sourceTree = "<group>"; };
+		9C8C273D2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicPropertySynthesizingTestObject.h; sourceTree = "<group>"; };
+		9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicPropertySynthesizingTestObject.m; sourceTree = "<group>"; };
+		9C8C27422176085D00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m"; sourceTree = SOURCE_ROOT; };
+		9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivableObject.swift; sourceTree = "<group>"; };
+		9C8C274921761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDNSEdgeInsetsValue.h; sourceTree = "<group>"; };
+		9C8C274A21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDNSEdgeInsetsValue.m; sourceTree = "<group>"; };
+		9C8C274D21761DBD00CF0E4A /* _OBJCDDCGVectorValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDCGVectorValue.h; sourceTree = "<group>"; };
+		9C8C274E21761DBD00CF0E4A /* _OBJCDDCGVectorValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDCGVectorValue.m; sourceTree = "<group>"; };
+		9C8C275121761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDCGAffineTransformValue.h; sourceTree = "<group>"; };
+		9C8C275221761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDCGAffineTransformValue.m; sourceTree = "<group>"; };
+		9C8C275A2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-CoreGraphics(Cocoa).m"; sourceTree = "<group>"; };
+		9C8C275F217643BA00CF0E4A /* ObjCDynamicCoding-AppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-AppKit.m"; sourceTree = "<group>"; };
+		9C8C27612176468600CF0E4A /* _OBJCDDValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDValue.h; sourceTree = "<group>"; };
+		9C8C27622176468600CF0E4A /* _OBJCDDValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDValue.m; sourceTree = "<group>"; };
+		9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDWeakValue.h; sourceTree = "<group>"; };
+		9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDWeakValue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8C26342175E7DE00CF0E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C263D2175E7DE00CF0E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26412175E7DE00CF0E4A /* ObjCDeepDynamic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26512175E7ED00CF0E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26592175E7ED00CF0E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C265D2175E7ED00CF0E4A /* ObjCDeepDynamic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C266D2175E7FA00CF0E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C267A2175E80A00CF0E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26822175E80A00CF0E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26862175E80A00CF0E4A /* ObjCDeepDynamic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8C262B2175E7C900CF0E4A = {
+			isa = PBXGroup;
+			children = (
+				9C8C26942175E9EB00CF0E4A /* ObjCDeepDynamic */,
+				9C8C26972175E9EB00CF0E4A /* ObjCDeepDynamicTests */,
+				9C8C26382175E7DE00CF0E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8C26382175E7DE00CF0E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C26372175E7DE00CF0E4A /* ObjCDeepDynamic.framework */,
+				9C8C26402175E7DE00CF0E4A /* ObjCDeepDynamic-macOSTests.xctest */,
+				9C8C26542175E7ED00CF0E4A /* ObjCDeepDynamic.framework */,
+				9C8C265C2175E7ED00CF0E4A /* ObjCDeepDynamic-iOSTests.xctest */,
+				9C8C26702175E7FA00CF0E4A /* ObjCDeepDynamic.framework */,
+				9C8C267D2175E80A00CF0E4A /* ObjCDeepDynamic.framework */,
+				9C8C26852175E80A00CF0E4A /* ObjCDeepDynamic-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8C26942175E9EB00CF0E4A /* ObjCDeepDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C27592176431A00CF0E4A /* _OBJCDDValue */,
+				9C8C26F62175EC0200CF0E4A /* DynamicProperty */,
+				9C8C26F82175EC2000CF0E4A /* DynamicCoder */,
+				9C8C26F72175EC1400CF0E4A /* DynamicObject */,
+				9C8C26FA2175EC4B00CF0E4A /* Vendor */,
+				9C8C26F92175EC2D00CF0E4A /* Supporting Files */,
+			);
+			path = ObjCDeepDynamic;
+			sourceTree = "<group>";
+		};
+		9C8C26972175E9EB00CF0E4A /* ObjCDeepDynamicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C26982175E9EB00CF0E4A /* Info.plist */,
+				9C8C273B2175F92800CF0E4A /* DynamicCoder */,
+				9C8C273C2175F92D00CF0E4A /* DynamicProperty */,
+			);
+			path = ObjCDeepDynamicTests;
+			sourceTree = "<group>";
+		};
+		9C8C26F62175EC0200CF0E4A /* DynamicProperty */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */,
+				9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */,
+				9C8C26AF2175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.h */,
+				9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */,
+				9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */,
+				9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */,
+				9C8C270D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m */,
+				9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */,
+				9C8C27422176085D00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */,
+				9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */,
+				9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */,
+				9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */,
+			);
+			path = DynamicProperty;
+			sourceTree = "<group>";
+		};
+		9C8C26F72175EC1400CF0E4A /* DynamicObject */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C26B92175EBE500CF0E4A /* ObjCDynamicObject.h */,
+				9C8C26B42175EBE500CF0E4A /* ObjCDynamicObject.m */,
+				9C8C26BC2175EBE500CF0E4A /* ObjCDynamicObject+Subclass.h */,
+			);
+			path = DynamicObject;
+			sourceTree = "<group>";
+		};
+		9C8C26F82175EC2000CF0E4A /* DynamicCoder */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */,
+				9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */,
+				9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */,
+				9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */,
+				9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */,
+				9C8C275F217643BA00CF0E4A /* ObjCDynamicCoding-AppKit.m */,
+				9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */,
+				9C8C275A2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m */,
+				9C8C27242175F58800CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m */,
+				9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */,
+			);
+			path = DynamicCoder;
+			sourceTree = "<group>";
+		};
+		9C8C26F92175EC2D00CF0E4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C269B2175EB7600CF0E4A /* MacroUtilities.h */,
+				9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */,
+				9C8C27002175EE7400CF0E4A /* public.modulemap */,
+				9C8C269A2175EB3F00CF0E4A /* private.modulemap */,
+				9C8C26952175E9EB00CF0E4A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C8C26FA2175EC4B00CF0E4A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C269E2175EB7600CF0E4A /* metamacros.h */,
+				9C8C269D2175EB7600CF0E4A /* fishhook.h */,
+				9C8C269C2175EB7600CF0E4A /* fishhook.c */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		9C8C273A2175F92000CF0E4A /* TestAuxiliaries */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C27312175F83200CF0E4A /* ArchivableEnum.swift */,
+				9C8C27352175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift */,
+				9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */,
+			);
+			path = TestAuxiliaries;
+			sourceTree = "<group>";
+		};
+		9C8C273B2175F92800CF0E4A /* DynamicCoder */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C273A2175F92000CF0E4A /* TestAuxiliaries */,
+				9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */,
+			);
+			path = DynamicCoder;
+			sourceTree = "<group>";
+		};
+		9C8C273C2175F92D00CF0E4A /* DynamicProperty */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C273D2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.h */,
+				9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */,
+				9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */,
+			);
+			path = DynamicProperty;
+			sourceTree = "<group>";
+		};
+		9C8C27592176431A00CF0E4A /* _OBJCDDValue */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C27612176468600CF0E4A /* _OBJCDDValue.h */,
+				9C8C27622176468600CF0E4A /* _OBJCDDValue.m */,
+				9C8C274921761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h */,
+				9C8C274A21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m */,
+				9C8C274D21761DBD00CF0E4A /* _OBJCDDCGVectorValue.h */,
+				9C8C274E21761DBD00CF0E4A /* _OBJCDDCGVectorValue.m */,
+				9C8C275121761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.h */,
+				9C8C275221761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.m */,
+				9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */,
+				9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */,
+			);
+			path = _OBJCDDValue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C8C26322175E7DE00CF0E4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26FC2175EC7A00CF0E4A /* ObjCDeepDynamic.h in Headers */,
+				9C8C275321761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.h in Headers */,
+				9C8C274B21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h in Headers */,
+				9C8C26E72175EBEA00CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26AB2175EBB900CF0E4A /* metamacros.h in Headers */,
+				9C8C26E92175EBEA00CF0E4A /* ObjCDynamicCoding.h in Headers */,
+				9C8C26F22175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
+				9C8C26EB2175EBEA00CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */,
+				9C8C274F21761DBD00CF0E4A /* _OBJCDDCGVectorValue.h in Headers */,
+				9C8C26A32175EBB000CF0E4A /* MacroUtilities.h in Headers */,
+				9C8C27632176468600CF0E4A /* _OBJCDDValue.h in Headers */,
+				9C8C26F32175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */,
+				9C8C26A72175EBB500CF0E4A /* fishhook.h in Headers */,
+				9C8C26EC2175EBEA00CF0E4A /* ObjCDynamicObject.h in Headers */,
+				9C8C27672176482200CF0E4A /* _OBJCDDWeakValue.h in Headers */,
+				9C8C26EE2175EBEA00CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
+				9C8C26F02175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C264F2175E7ED00CF0E4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26FD2175EC7A00CF0E4A /* ObjCDeepDynamic.h in Headers */,
+				9C8C26D92175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26AC2175EBBA00CF0E4A /* metamacros.h in Headers */,
+				9C8C26DB2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */,
+				9C8C26E42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
+				9C8C26DD2175EBE900CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */,
+				9C8C26A42175EBB000CF0E4A /* MacroUtilities.h in Headers */,
+				9C8C26E52175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */,
+				9C8C26A82175EBB500CF0E4A /* fishhook.h in Headers */,
+				9C8C26DE2175EBE900CF0E4A /* ObjCDynamicObject.h in Headers */,
+				9C8C26E02175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
+				9C8C27692176482600CF0E4A /* _OBJCDDWeakValue.h in Headers */,
+				9C8C26E22175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C266B2175E7FA00CF0E4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26FE2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */,
+				9C8C26CB2175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26AD2175EBBA00CF0E4A /* metamacros.h in Headers */,
+				9C8C26CD2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */,
+				9C8C26D62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
+				9C8C26CF2175EBE900CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */,
+				9C8C26A52175EBB100CF0E4A /* MacroUtilities.h in Headers */,
+				9C8C26D72175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */,
+				9C8C26A92175EBB600CF0E4A /* fishhook.h in Headers */,
+				9C8C26D02175EBE900CF0E4A /* ObjCDynamicObject.h in Headers */,
+				9C8C26D22175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
+				9C8C276A2176482700CF0E4A /* _OBJCDDWeakValue.h in Headers */,
+				9C8C26D42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26782175E80A00CF0E4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26FF2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */,
+				9C8C26BD2175EBE800CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26AE2175EBBA00CF0E4A /* metamacros.h in Headers */,
+				9C8C26BF2175EBE800CF0E4A /* ObjCDynamicCoding.h in Headers */,
+				9C8C26C82175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
+				9C8C26C12175EBE800CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */,
+				9C8C26A62175EBB100CF0E4A /* MacroUtilities.h in Headers */,
+				9C8C26C92175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */,
+				9C8C26AA2175EBB600CF0E4A /* fishhook.h in Headers */,
+				9C8C26C22175EBE800CF0E4A /* ObjCDynamicObject.h in Headers */,
+				9C8C26C42175EBE800CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
+				9C8C276B2176482700CF0E4A /* _OBJCDDWeakValue.h in Headers */,
+				9C8C26C62175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C8C26362175E7DE00CF0E4A /* ObjCDeepDynamic-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C26492175E7DE00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-macOS" */;
+			buildPhases = (
+				9C8C26322175E7DE00CF0E4A /* Headers */,
+				9C8C26332175E7DE00CF0E4A /* Sources */,
+				9C8C26342175E7DE00CF0E4A /* Frameworks */,
+				9C8C26352175E7DE00CF0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjCDeepDynamic-macOS";
+			productName = "ObjCDeepDynamic-macOS";
+			productReference = 9C8C26372175E7DE00CF0E4A /* ObjCDeepDynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C8C263F2175E7DE00CF0E4A /* ObjCDeepDynamic-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C264C2175E7DE00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-macOSTests" */;
+			buildPhases = (
+				9C8C263C2175E7DE00CF0E4A /* Sources */,
+				9C8C263D2175E7DE00CF0E4A /* Frameworks */,
+				9C8C263E2175E7DE00CF0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8C26432175E7DE00CF0E4A /* PBXTargetDependency */,
+			);
+			name = "ObjCDeepDynamic-macOSTests";
+			productName = "ObjCDeepDynamic-macOSTests";
+			productReference = 9C8C26402175E7DE00CF0E4A /* ObjCDeepDynamic-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C8C26532175E7ED00CF0E4A /* ObjCDeepDynamic-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C26652175E7ED00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-iOS" */;
+			buildPhases = (
+				9C8C264F2175E7ED00CF0E4A /* Headers */,
+				9C8C26502175E7ED00CF0E4A /* Sources */,
+				9C8C26512175E7ED00CF0E4A /* Frameworks */,
+				9C8C26522175E7ED00CF0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjCDeepDynamic-iOS";
+			productName = "ObjCDeepDynamic-iOS";
+			productReference = 9C8C26542175E7ED00CF0E4A /* ObjCDeepDynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C8C265B2175E7ED00CF0E4A /* ObjCDeepDynamic-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C26682175E7ED00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-iOSTests" */;
+			buildPhases = (
+				9C8C26582175E7ED00CF0E4A /* Sources */,
+				9C8C26592175E7ED00CF0E4A /* Frameworks */,
+				9C8C265A2175E7ED00CF0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8C265F2175E7ED00CF0E4A /* PBXTargetDependency */,
+			);
+			name = "ObjCDeepDynamic-iOSTests";
+			productName = "ObjCDeepDynamic-iOSTests";
+			productReference = 9C8C265C2175E7ED00CF0E4A /* ObjCDeepDynamic-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C8C266F2175E7FA00CF0E4A /* ObjCDeepDynamic-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C26752175E7FA00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-watchOS" */;
+			buildPhases = (
+				9C8C266B2175E7FA00CF0E4A /* Headers */,
+				9C8C266C2175E7FA00CF0E4A /* Sources */,
+				9C8C266D2175E7FA00CF0E4A /* Frameworks */,
+				9C8C266E2175E7FA00CF0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjCDeepDynamic-watchOS";
+			productName = "ObjCDeepDynamic-watchOS";
+			productReference = 9C8C26702175E7FA00CF0E4A /* ObjCDeepDynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C8C267C2175E80A00CF0E4A /* ObjCDeepDynamic-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C268E2175E80A00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-tvOS" */;
+			buildPhases = (
+				9C8C26782175E80A00CF0E4A /* Headers */,
+				9C8C26792175E80A00CF0E4A /* Sources */,
+				9C8C267A2175E80A00CF0E4A /* Frameworks */,
+				9C8C267B2175E80A00CF0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjCDeepDynamic-tvOS";
+			productName = "ObjCDeepDynamic-tvOS";
+			productReference = 9C8C267D2175E80A00CF0E4A /* ObjCDeepDynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C8C26842175E80A00CF0E4A /* ObjCDeepDynamic-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8C26912175E80A00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-tvOSTests" */;
+			buildPhases = (
+				9C8C26812175E80A00CF0E4A /* Sources */,
+				9C8C26822175E80A00CF0E4A /* Frameworks */,
+				9C8C26832175E80A00CF0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8C26882175E80A00CF0E4A /* PBXTargetDependency */,
+			);
+			name = "ObjCDeepDynamic-tvOSTests";
+			productName = "ObjCDeepDynamic-tvOSTests";
+			productReference = 9C8C26852175E80A00CF0E4A /* ObjCDeepDynamic-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8C262C2175E7C900CF0E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					9C8C26362175E7DE00CF0E4A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					9C8C263F2175E7DE00CF0E4A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					9C8C26532175E7ED00CF0E4A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9C8C265B2175E7ED00CF0E4A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					9C8C266F2175E7FA00CF0E4A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9C8C267C2175E80A00CF0E4A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9C8C26842175E80A00CF0E4A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 9C8C262F2175E7C900CF0E4A /* Build configuration list for PBXProject "ObjCDeepDynamic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C8C262B2175E7C900CF0E4A;
+			productRefGroup = 9C8C26382175E7DE00CF0E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C8C26362175E7DE00CF0E4A /* ObjCDeepDynamic-macOS */,
+				9C8C263F2175E7DE00CF0E4A /* ObjCDeepDynamic-macOSTests */,
+				9C8C26532175E7ED00CF0E4A /* ObjCDeepDynamic-iOS */,
+				9C8C265B2175E7ED00CF0E4A /* ObjCDeepDynamic-iOSTests */,
+				9C8C266F2175E7FA00CF0E4A /* ObjCDeepDynamic-watchOS */,
+				9C8C267C2175E80A00CF0E4A /* ObjCDeepDynamic-tvOS */,
+				9C8C26842175E80A00CF0E4A /* ObjCDeepDynamic-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8C26352175E7DE00CF0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C263E2175E7DE00CF0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26522175E7ED00CF0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C265A2175E7ED00CF0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C266E2175E7FA00CF0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C267B2175E80A00CF0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26832175E80A00CF0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C8C26332175E7DE00CF0E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C271E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */,
+				9C8C27642176468600CF0E4A /* _OBJCDDValue.m in Sources */,
+				9C8C26EF2175EBEA00CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
+				9C8C27252175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
+				9C8C27122175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
+				9C8C275B2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m in Sources */,
+				9C8C26F12175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
+				9C8C26ED2175EBEA00CF0E4A /* ObjCDynamicObject.m in Sources */,
+				9C8C269F2175EB7E00CF0E4A /* fishhook.c in Sources */,
+				9C8C27432176085E00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m in Sources */,
+				9C8C275021761DBD00CF0E4A /* _OBJCDDCGVectorValue.m in Sources */,
+				9C8C27682176482200CF0E4A /* _OBJCDDWeakValue.m in Sources */,
+				9C8C26F42175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
+				9C8C26E82175EBEA00CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C26EA2175EBEA00CF0E4A /* ObjCDynamicCoding.m in Sources */,
+				9C8C2760217643BA00CF0E4A /* ObjCDynamicCoding-AppKit.m in Sources */,
+				9C8C270E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
+				9C8C274C21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m in Sources */,
+				9C8C275421761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C263C2175E7DE00CF0E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C27032175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */,
+				9C8C274621761AD100CF0E4A /* ArchivableObject.swift in Sources */,
+				9C8C27062175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */,
+				9C8C27362175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */,
+				9C8C27322175F83200CF0E4A /* ArchivableEnum.swift in Sources */,
+				9C8C273F2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26502175E7ED00CF0E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26E12175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
+				9C8C271B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
+				9C8C27262175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
+				9C8C27132175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
+				9C8C275E2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
+				9C8C27172175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
+				9C8C26E32175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
+				9C8C26DF2175EBE900CF0E4A /* ObjCDynamicObject.m in Sources */,
+				9C8C26A02175EB7E00CF0E4A /* fishhook.c in Sources */,
+				9C8C272A2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
+				9C8C26E62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
+				9C8C26DA2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C26DC2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */,
+				9C8C270F2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26582175E7ED00CF0E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C27042175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */,
+				9C8C274721761AD200CF0E4A /* ArchivableObject.swift in Sources */,
+				9C8C27072175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */,
+				9C8C27372175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */,
+				9C8C27332175F83200CF0E4A /* ArchivableEnum.swift in Sources */,
+				9C8C27402175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C266C2175E7FA00CF0E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26D32175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
+				9C8C271C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
+				9C8C27182175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
+				9C8C26D52175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
+				9C8C26D12175EBE900CF0E4A /* ObjCDynamicObject.m in Sources */,
+				9C8C26A12175EB7F00CF0E4A /* fishhook.c in Sources */,
+				9C8C272B2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
+				9C8C26D82175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
+				9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C275D2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
+				9C8C26CE2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26792175E80A00CF0E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C26C52175EBE800CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
+				9C8C271D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
+				9C8C27282175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
+				9C8C27152175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
+				9C8C275C2176437200CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
+				9C8C27192175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
+				9C8C26C72175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
+				9C8C26C32175EBE800CF0E4A /* ObjCDynamicObject.m in Sources */,
+				9C8C26A22175EB7F00CF0E4A /* fishhook.c in Sources */,
+				9C8C272C2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
+				9C8C26CA2175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
+				9C8C26BE2175EBE800CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C26C02175EBE800CF0E4A /* ObjCDynamicCoding.m in Sources */,
+				9C8C27112175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8C26812175E80A00CF0E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8C27052175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */,
+				9C8C274821761AD300CF0E4A /* ArchivableObject.swift in Sources */,
+				9C8C27082175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */,
+				9C8C27382175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */,
+				9C8C27342175F83200CF0E4A /* ArchivableEnum.swift in Sources */,
+				9C8C27412175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C8C26432175E7DE00CF0E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8C26362175E7DE00CF0E4A /* ObjCDeepDynamic-macOS */;
+			targetProxy = 9C8C26422175E7DE00CF0E4A /* PBXContainerItemProxy */;
+		};
+		9C8C265F2175E7ED00CF0E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8C26532175E7ED00CF0E4A /* ObjCDeepDynamic-iOS */;
+			targetProxy = 9C8C265E2175E7ED00CF0E4A /* PBXContainerItemProxy */;
+		};
+		9C8C26882175E80A00CF0E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8C267C2175E80A00CF0E4A /* ObjCDeepDynamic-tvOS */;
+			targetProxy = 9C8C26872175E80A00CF0E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C8C26302175E7C900CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9C8C26312175E7C900CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		9C8C264A2175E7DE00CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-macOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C8C264B2175E7DE00CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-macOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C8C264D2175E7DE00CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ObjCDeepDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9C8C264E2175E7DE00CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ObjCDeepDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		9C8C26662175E7ED00CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-iOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C8C26672175E7ED00CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-iOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C8C26692175E7ED00CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ObjCDeepDynamicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8C266A2175E7ED00CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ObjCDeepDynamicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8C26762175E7FA00CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-watchOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9C8C26772175E7FA00CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-watchOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		9C8C268F2175E80A00CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-tvOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C8C26902175E80A00CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjCDeepDynamic/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-tvOS";
+				PRODUCT_NAME = ObjCDeepDynamic;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C8C26922175E80A00CF0E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ObjCDeepDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		9C8C26932175E80A00CF0E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = ObjCDeepDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C8C262F2175E7C900CF0E4A /* Build configuration list for PBXProject "ObjCDeepDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C26302175E7C900CF0E4A /* Debug */,
+				9C8C26312175E7C900CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C26492175E7DE00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C264A2175E7DE00CF0E4A /* Debug */,
+				9C8C264B2175E7DE00CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C264C2175E7DE00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C264D2175E7DE00CF0E4A /* Debug */,
+				9C8C264E2175E7DE00CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C26652175E7ED00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C26662175E7ED00CF0E4A /* Debug */,
+				9C8C26672175E7ED00CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C26682175E7ED00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C26692175E7ED00CF0E4A /* Debug */,
+				9C8C266A2175E7ED00CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C26752175E7FA00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C26762175E7FA00CF0E4A /* Debug */,
+				9C8C26772175E7FA00CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C268E2175E80A00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C268F2175E80A00CF0E4A /* Debug */,
+				9C8C26902175E80A00CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8C26912175E80A00CF0E4A /* Build configuration list for PBXNativeTarget "ObjCDeepDynamic-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8C26922175E80A00CF0E4A /* Debug */,
+				9C8C26932175E80A00CF0E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8C262C2175E7C900CF0E4A /* Project object */;
+}
