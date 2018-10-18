@@ -1,5 +1,5 @@
 //
-//  ObjCDynamicCoder.m
+//  ObjCDynamicCoded.m
 //  ObjCDeepDynamic
 //
 //  Created by WeZZard on 26/12/2016.
@@ -11,11 +11,11 @@
 
 #import "ObjCDynamicCoding+Internal.h"
 
-#import "ObjCDynamicCoder.h"
+#import "ObjCDynamicCoded.h"
 
-static NSString *  kObjCDynamicCoderVersionKey = @"com.WeZZard.ObjCDeepDynamic.ObjCDynamicCoder.version";
+static NSString *  kObjCDynamicCoderVersionKey = @"com.WeZZard.ObjCDeepDynamic.ObjCDynamicCoded.version";
 
-@implementation ObjCDynamicCoder
+@implementation ObjCDynamicCoded
 + (NSInteger)version {
     return 0;
 }
@@ -26,7 +26,7 @@ static NSString *  kObjCDynamicCoderVersionKey = @"com.WeZZard.ObjCDeepDynamic.O
                   to:(NSInteger)toVersion
 {
 #if DEBUG
-    NSLog(@"Trying to migrate value(\"%@\") for key \"%@\" but does nothing with it. You might override %@ to migrate.", [*value description], [*key description], NSStringFromSelector(_cmd));
+    NSLog(@"Trying to migrate value(\"%@\") for key \"%@\" from version \"\%@\" to version \"%@\" but did nothing with it. You may override %@ with your migration code.", [*value description], [*key description], @(fromVersion), @(toVersion), NSStringFromSelector(_cmd));
 #endif
     return NO;
 }
@@ -51,52 +51,47 @@ static NSString *  kObjCDynamicCoderVersionKey = @"com.WeZZard.ObjCDeepDynamic.O
     if (self) {
         NSInteger classVersion = [[self class] version];
         
-        NSInteger binaryVersion
-        = [aDecoder decodeIntegerForKey:kObjCDynamicCoderVersionKey];
+        NSInteger binaryVersion = [aDecoder decodeIntegerForKey:kObjCDynamicCoderVersionKey];
         
         BOOL shouldMigrate = classVersion != binaryVersion;
         
-        BOOL isWholeMigrationSucceeded = YES;
+        BOOL isEntireMigrationSucceeded = YES;
         
         Class inspectedClass = [self class];
         
-        Class searchingTerminateClass = [ObjCDynamicCoder class];
+        Class rootClass = [ObjCDynamicCoded class];
         
-        while (inspectedClass != searchingTerminateClass) {
+        while (inspectedClass != rootClass) {
             
             unsigned int propertyCount = 0;
             
-            objc_property_t * propertyList
-            = class_copyPropertyList(inspectedClass, &propertyCount);
+            objc_property_t * propertyList = class_copyPropertyList(inspectedClass, &propertyCount);
             
             for (unsigned int index = 0; index < propertyCount; index ++) {
                 objc_property_t property = propertyList[index];
                 
-                if (property_copyAttributeValue(property, "D")) {
+                char * isDynamicAttribute = property_copyAttributeValue(property, "D");
+                
+                if (isDynamicAttribute) {
                     const char * rawPropertyName = property_getName(property);
                     
-                    NSString * propertyName
-                    = [NSString stringWithCString:rawPropertyName
-                                         encoding:NSUTF8StringEncoding];
+                    NSString * propertyName = [NSString stringWithCString:rawPropertyName
+                                                                 encoding:NSUTF8StringEncoding];
                     
-                    ObjCDynamicCodingDecodeCallBack decode
-                    = ObjCDynamicCodingGetDecodeCallBackForPropertyName([self class], propertyName);
+                    ObjCDynamicCodingDecodeCallBack decode = ObjCDynamicCodingGetDecodeCallBackForPropertyName([self class], propertyName);
                     
                     id value = (* decode)([self class], aDecoder, propertyName);
                     
                     if (shouldMigrate) {
-                        BOOL isValueMigrationSucceeded
-                        = [[self class] migrateValue:&value
-                                              forKey:&propertyName
-                                                from:binaryVersion
-                                                  to:classVersion];
+                        BOOL isValueMigrationSucceeded = [[self class] migrateValue:&value
+                                                                             forKey:&propertyName
+                                                                               from:binaryVersion
+                                                                                 to:classVersion];
                         
-                        isWholeMigrationSucceeded
-                        = isWholeMigrationSucceeded && isValueMigrationSucceeded;
+                        isEntireMigrationSucceeded = isEntireMigrationSucceeded && isValueMigrationSucceeded;
                     } else {
                         if (value == nil) {
-                            id defaultValue
-                            = [[self class] defaultValueForKey:propertyName];
+                            id defaultValue = [[self class] defaultValueForKey:propertyName];
                             
                             if (defaultValue != nil) {
                                 value = defaultValue;
@@ -107,6 +102,8 @@ static NSString *  kObjCDynamicCoderVersionKey = @"com.WeZZard.ObjCDeepDynamic.O
                     if (propertyName != nil) {
                         [self setValue:value forKey:propertyName];
                     }
+                    
+                    free(isDynamicAttribute);
                 }
             }
             
@@ -115,7 +112,7 @@ static NSString *  kObjCDynamicCoderVersionKey = @"com.WeZZard.ObjCDeepDynamic.O
             inspectedClass = [inspectedClass superclass];
         }
         
-        if (shouldMigrate && !isWholeMigrationSucceeded) {
+        if (shouldMigrate && !isEntireMigrationSucceeded) {
             return nil;
         }
     }

@@ -23,7 +23,7 @@
 }
 
 + (BOOL)supportsSecureCoding {
-    return NO;
+    return YES;
 }
 
 - (void)encodeWithCoder:(nonnull NSCoder *)aCoder {

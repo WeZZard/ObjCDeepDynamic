@@ -26,8 +26,8 @@
 		9C8C26AC2175EBBA00CF0E4A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269E2175EB7600CF0E4A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8C26AD2175EBBA00CF0E4A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269E2175EB7600CF0E4A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8C26AE2175EBBA00CF0E4A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C269E2175EB7600CF0E4A /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8C26BD2175EBE800CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8C26BE2175EBE800CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26BD2175EBE800CF0E4A /* ObjCDynamicCoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26BE2175EBE800CF0E4A /* ObjCDynamicCoded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoded.m */; };
 		9C8C26BF2175EBE800CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C8C26C02175EBE800CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
 		9C8C26C12175EBE800CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
@@ -40,8 +40,8 @@
 		9C8C26C82175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */; };
 		9C8C26C92175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8C26CA2175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */; };
-		9C8C26CB2175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26CB2175EBE900CF0E4A /* ObjCDynamicCoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoded.m */; };
 		9C8C26CD2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C8C26CE2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
 		9C8C26CF2175EBE900CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
@@ -54,8 +54,8 @@
 		9C8C26D62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */; };
 		9C8C26D72175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8C26D82175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */; };
-		9C8C26D92175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8C26DA2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26D92175EBE900CF0E4A /* ObjCDynamicCoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26DA2175EBE900CF0E4A /* ObjCDynamicCoded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoded.m */; };
 		9C8C26DB2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C8C26DC2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
 		9C8C26DD2175EBE900CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
@@ -68,8 +68,8 @@
 		9C8C26E42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */; };
 		9C8C26E52175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8C26E62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */; };
-		9C8C26E72175EBEA00CF0E4A /* ObjCDynamicCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8C26E82175EBEA00CF0E4A /* ObjCDynamicCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */; };
+		9C8C26E72175EBEA00CF0E4A /* ObjCDynamicCoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8C26E82175EBEA00CF0E4A /* ObjCDynamicCoded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoded.m */; };
 		9C8C26E92175EBEA00CF0E4A /* ObjCDynamicCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C8C26EA2175EBEA00CF0E4A /* ObjCDynamicCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */; };
 		9C8C26EB2175EBEA00CF0E4A /* ObjCDynamicCoding+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */; };
@@ -92,19 +92,6 @@
 		9C8C27062175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
 		9C8C27072175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
 		9C8C27082175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
-		9C8C270E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
-		9C8C270F2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
-		9C8C27112175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
-		9C8C27122175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
-		9C8C27132175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
-		9C8C27152175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
-		9C8C27172175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */; };
-		9C8C27182175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */; };
-		9C8C27192175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */; };
-		9C8C271B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
-		9C8C271C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
-		9C8C271D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
-		9C8C271E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C270D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m */; };
 		9C8C27252175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */; };
 		9C8C27262175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */; };
 		9C8C27282175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */; };
@@ -120,7 +107,6 @@
 		9C8C273F2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */; };
 		9C8C27402175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */; };
 		9C8C27412175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */; };
-		9C8C27432176085E00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27422176085D00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */; };
 		9C8C274621761AD100CF0E4A /* ArchivableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */; };
 		9C8C274721761AD200CF0E4A /* ArchivableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */; };
 		9C8C274821761AD300CF0E4A /* ArchivableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */; };
@@ -153,6 +139,20 @@
 		9C953B4E2178479C008089A8 /* _OBJCDDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27622176468600CF0E4A /* _OBJCDDValue.m */; };
 		9C953B4F2178479C008089A8 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
 		9C953B502178479C008089A8 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */; };
+		9C953B5E21785C59008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5821785C56008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m */; };
+		9C953B5F21785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5A21785C56008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
+		9C953B6021785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5A21785C56008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
+		9C953B6121785C5C008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5A21785C56008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
+		9C953B6221785C5F008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5B21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */; };
+		9C953B6321785C62008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5C21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
+		9C953B6421785C62008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5C21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
+		9C953B6521785C63008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5C21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */; };
+		9C953B6621785C65008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5921785C56008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
+		9C953B6721785C66008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5921785C56008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
+		9C953B6821785C67008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5921785C56008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m */; };
+		9C953B6A21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */; };
+		9C953B6B21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */; };
+		9C953B6C21785C6C008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,10 +198,10 @@
 		9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicCoding.m; sourceTree = "<group>"; };
 		9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicPropertyAccessors.m; sourceTree = "<group>"; };
 		9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCDynamicPropertySynthesizer+Internal.h"; sourceTree = "<group>"; };
-		9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicCoder.m; sourceTree = "<group>"; };
+		9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicCoded.m; sourceTree = "<group>"; };
 		9C8C26B42175EBE500CF0E4A /* ObjCDynamicObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicObject.m; sourceTree = "<group>"; };
 		9C8C26B52175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCDynamicPropertySynthesizing.mm; sourceTree = "<group>"; };
-		9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicCoder.h; sourceTree = "<group>"; };
+		9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicCoded.h; sourceTree = "<group>"; };
 		9C8C26B72175EBE500CF0E4A /* ObjCDynamicPropertySynthesizing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicPropertySynthesizing.h; sourceTree = "<group>"; };
 		9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCDynamicPropertySynthesizer.mm; sourceTree = "<group>"; };
 		9C8C26B92175EBE500CF0E4A /* ObjCDynamicObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicObject.h; sourceTree = "<group>"; };
@@ -212,11 +212,6 @@
 		9C8C27002175EE7400CF0E4A /* public.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = public.modulemap; sourceTree = "<group>"; };
 		9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjCDynamicCoderTests.swift; sourceTree = "<group>"; };
 		9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicPropertySynthesizingTests.m; sourceTree = "<group>"; };
-		9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-QuartzCore.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-QuartzCore.m"; sourceTree = SOURCE_ROOT; };
-		9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-AVFoundation.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-AVFoundation.m"; sourceTree = SOURCE_ROOT; };
-		9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-UIKit.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-UIKit.m"; sourceTree = SOURCE_ROOT; };
-		9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m"; sourceTree = SOURCE_ROOT; };
-		9C8C270D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-AppKit.m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-AppKit.m"; sourceTree = SOURCE_ROOT; };
 		9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-AVFoundation.m"; sourceTree = "<group>"; };
 		9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-UIKit.m"; sourceTree = "<group>"; };
 		9C8C27242175F58800CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-CoreGraphics(CocoaTouch).m"; sourceTree = "<group>"; };
@@ -224,7 +219,6 @@
 		9C8C27352175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivableEnumObjCBridged.swift; sourceTree = "<group>"; };
 		9C8C273D2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDynamicPropertySynthesizingTestObject.h; sourceTree = "<group>"; };
 		9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicPropertySynthesizingTestObject.m; sourceTree = "<group>"; };
-		9C8C27422176085D00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m"; path = "ObjCDeepDynamic/DynamicCoder/ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m"; sourceTree = SOURCE_ROOT; };
 		9C8C274421761ACF00CF0E4A /* ArchivableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivableObject.swift; sourceTree = "<group>"; };
 		9C8C274921761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDNSEdgeInsetsValue.h; sourceTree = "<group>"; };
 		9C8C274A21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDNSEdgeInsetsValue.m; sourceTree = "<group>"; };
@@ -240,6 +234,12 @@
 		9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDWeakValue.m; sourceTree = "<group>"; };
 		9C953B37217846CA008089A8 /* _OBJCDDValue+AppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_OBJCDDValue+AppKit.h"; sourceTree = "<group>"; };
 		9C953B38217846CA008089A8 /* _OBJCDDValue+AppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_OBJCDDValue+AppKit.m"; sourceTree = "<group>"; };
+		9C953B5821785C56008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-AppKit.m"; sourceTree = "<group>"; };
+		9C953B5921785C56008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-QuartzCore.m"; sourceTree = "<group>"; };
+		9C953B5A21785C56008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-AVFoundation.m"; sourceTree = "<group>"; };
+		9C953B5B21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m"; sourceTree = "<group>"; };
+		9C953B5C21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m"; sourceTree = "<group>"; };
+		9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-UIKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,7 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				9C8C26F62175EC0200CF0E4A /* DynamicProperty */,
-				9C8C26F82175EC2000CF0E4A /* DynamicCoder */,
+				9C8C26F82175EC2000CF0E4A /* DynamicCoded */,
 				9C8C26F72175EC1400CF0E4A /* DynamicObject */,
 				9C8C27592176431A00CF0E4A /* _OBJCDDValue */,
 				9C8C26FA2175EC4B00CF0E4A /* ThirdParty */,
@@ -353,12 +353,12 @@
 				9C8C26B82175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer.mm */,
 				9C8C26B22175EBE500CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h */,
 				9C8C26B12175EBE500CF0E4A /* ObjCDynamicPropertyAccessors.m */,
-				9C8C270D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m */,
-				9C8C270A2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m */,
-				9C8C27422176085D00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */,
-				9C8C270C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */,
-				9C8C27092175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m */,
-				9C8C270B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m */,
+				9C953B5821785C56008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m */,
+				9C953B5A21785C56008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m */,
+				9C953B5B21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */,
+				9C953B5C21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */,
+				9C953B5921785C56008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m */,
+				9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */,
 			);
 			path = DynamicProperty;
 			sourceTree = "<group>";
@@ -373,11 +373,11 @@
 			path = DynamicObject;
 			sourceTree = "<group>";
 		};
-		9C8C26F82175EC2000CF0E4A /* DynamicCoder */ = {
+		9C8C26F82175EC2000CF0E4A /* DynamicCoded */ = {
 			isa = PBXGroup;
 			children = (
-				9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoder.h */,
-				9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoder.m */,
+				9C8C26B62175EBE500CF0E4A /* ObjCDynamicCoded.h */,
+				9C8C26B32175EBE500CF0E4A /* ObjCDynamicCoded.m */,
 				9C8C26BA2175EBE500CF0E4A /* ObjCDynamicCoding.h */,
 				9C8C26B02175EBE500CF0E4A /* ObjCDynamicCoding.m */,
 				9C8C26BB2175EBE500CF0E4A /* ObjCDynamicCoding+Internal.h */,
@@ -387,7 +387,7 @@
 				9C8C27242175F58800CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m */,
 				9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */,
 			);
-			path = DynamicCoder;
+			path = DynamicCoded;
 			sourceTree = "<group>";
 		};
 		9C8C26F92175EC2D00CF0E4A /* Supporting Files */ = {
@@ -470,7 +470,7 @@
 				9C8C26FC2175EC7A00CF0E4A /* ObjCDeepDynamic.h in Headers */,
 				9C8C275321761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.h in Headers */,
 				9C8C274B21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h in Headers */,
-				9C8C26E72175EBEA00CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26E72175EBEA00CF0E4A /* ObjCDynamicCoded.h in Headers */,
 				9C8C26AB2175EBB900CF0E4A /* metamacros.h in Headers */,
 				9C8C26E92175EBEA00CF0E4A /* ObjCDynamicCoding.h in Headers */,
 				9C8C26F22175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
@@ -493,7 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8C26FD2175EC7A00CF0E4A /* ObjCDeepDynamic.h in Headers */,
-				9C8C26D92175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26D92175EBE900CF0E4A /* ObjCDynamicCoded.h in Headers */,
 				9C8C26AC2175EBBA00CF0E4A /* metamacros.h in Headers */,
 				9C8C26DB2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */,
 				9C8C26E42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
@@ -514,7 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8C26FE2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */,
-				9C8C26CB2175EBE900CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26CB2175EBE900CF0E4A /* ObjCDynamicCoded.h in Headers */,
 				9C8C26AD2175EBBA00CF0E4A /* metamacros.h in Headers */,
 				9C8C26CD2175EBE900CF0E4A /* ObjCDynamicCoding.h in Headers */,
 				9C8C26D62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
@@ -535,7 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8C26FF2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */,
-				9C8C26BD2175EBE800CF0E4A /* ObjCDynamicCoder.h in Headers */,
+				9C8C26BD2175EBE800CF0E4A /* ObjCDynamicCoded.h in Headers */,
 				9C8C26AE2175EBBA00CF0E4A /* metamacros.h in Headers */,
 				9C8C26BF2175EBE800CF0E4A /* ObjCDynamicCoding.h in Headers */,
 				9C8C26C82175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer+Internal.h in Headers */,
@@ -796,26 +796,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C271E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */,
 				9C953B4E2178479C008089A8 /* _OBJCDDValue.m in Sources */,
+				9C953B5F21785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C953B3A217846CA008089A8 /* _OBJCDDValue+AppKit.m in Sources */,
 				9C8C26EF2175EBEA00CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
 				9C8C27252175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
-				9C8C27122175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C8C275B2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m in Sources */,
 				9C953B502178479C008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26F12175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
 				9C8C26ED2175EBEA00CF0E4A /* ObjCDynamicObject.m in Sources */,
+				9C953B6221785C5F008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m in Sources */,
+				9C953B5E21785C59008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */,
 				9C8C269F2175EB7E00CF0E4A /* fishhook.c in Sources */,
-				9C8C27432176085E00CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m in Sources */,
 				9C8C275021761DBD00CF0E4A /* _OBJCDDCGVectorValue.m in Sources */,
 				9C8C26F42175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
-				9C8C26E82175EBEA00CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C26E82175EBEA00CF0E4A /* ObjCDynamicCoded.m in Sources */,
 				9C8C26EA2175EBEA00CF0E4A /* ObjCDynamicCoding.m in Sources */,
 				9C8C2760217643BA00CF0E4A /* ObjCDynamicCoding-AppKit.m in Sources */,
-				9C8C270E2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 				9C8C274C21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m in Sources */,
 				9C8C275421761DCA00CF0E4A /* _OBJCDDCGAffineTransformValue.m in Sources */,
+				9C953B6621785C65008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,22 +836,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C953B6C21785C6C008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
 				9C8C26E12175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
-				9C8C271B2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
+				9C953B6021785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C8C27262175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
-				9C8C27132175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C8C275E2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
-				9C8C27172175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
+				9C953B6721785C66008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 				9C8C26E32175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
 				9C953B4C2178479C008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26DF2175EBE900CF0E4A /* ObjCDynamicObject.m in Sources */,
 				9C8C26A02175EB7E00CF0E4A /* fishhook.c in Sources */,
 				9C8C272A2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
 				9C953B4A2178479C008089A8 /* _OBJCDDValue.m in Sources */,
+				9C953B6321785C62008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
 				9C8C26E62175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
-				9C8C26DA2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C26DA2175EBE900CF0E4A /* ObjCDynamicCoded.m in Sources */,
 				9C8C26DC2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */,
-				9C8C270F2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,16 +872,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C953B6421785C62008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
 				9C8C26D32175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
-				9C8C271C2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
-				9C8C27182175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
+				9C953B6B21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
 				9C8C26D52175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
 				9C8C26D12175EBE900CF0E4A /* ObjCDynamicObject.m in Sources */,
 				9C8C26A12175EB7F00CF0E4A /* fishhook.c in Sources */,
 				9C8C272B2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
 				9C953B462178479B008089A8 /* _OBJCDDValue.m in Sources */,
 				9C8C26D82175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
-				9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoded.m in Sources */,
 				9C8C275D2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
 				9C953B482178479B008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26CE2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */,
@@ -892,22 +892,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C953B6A21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
 				9C8C26C52175EBE800CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
-				9C8C271D2175F54800CF0E4A /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
+				9C953B6121785C5C008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C8C27282175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
-				9C8C27152175F54800CF0E4A /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C8C275C2176437200CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
-				9C8C27192175F54800CF0E4A /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
+				9C953B6821785C67008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 				9C8C26C72175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
 				9C953B442178479B008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26C32175EBE800CF0E4A /* ObjCDynamicObject.m in Sources */,
 				9C8C26A22175EB7F00CF0E4A /* fishhook.c in Sources */,
 				9C8C272C2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
 				9C953B422178479B008089A8 /* _OBJCDDValue.m in Sources */,
+				9C953B6521785C63008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m in Sources */,
 				9C8C26CA2175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
-				9C8C26BE2175EBE800CF0E4A /* ObjCDynamicCoder.m in Sources */,
+				9C8C26BE2175EBE800CF0E4A /* ObjCDynamicCoded.m in Sources */,
 				9C8C26C02175EBE800CF0E4A /* ObjCDynamicCoding.m in Sources */,
-				9C8C27112175F54800CF0E4A /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ObjCDynamicCoder.h
+//  ObjCDynamicCoded.h
 //  ObjCDeepDynamic
 //
 //  Created by WeZZard on 26/12/2016.
@@ -10,19 +10,26 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// `ObjCDynamicCoder` understands how to encode and decode its @dynamic
+/// `ObjCDynamicCoded` understands how to encode and decode its @dynamic
 /// properties.
-@interface ObjCDynamicCoder : ObjCDynamicObject<NSCoding>
-/** Returns the version of `ObjCDynamicCoder` subclass. The default
- implementaiton always returns 0.
+@interface ObjCDynamicCoded : ObjCDynamicObject<NSCoding>
+/** Returns the version of `ObjCDynamicCoded` subclass. The default
+ implementaiton always returns `0`.
  
- - Discussion: With the default implementation, the decoding would be
+ @discussion With the default implementation, the decoding would be
  failed if the decoded version is different from the value got in this
  method and any value migration was failed.
  */
 + (NSInteger)version;
 
-/** Offers a lightweight migration mechanism. Returns `NO` by default.
+/** Offers a lightweight migration mechanism. The default implementation
+ does nothing but only returns `NO`.
+ 
+ @discussion This method is only able to do one-to-one migration. For
+ migrations need to take the whole object into consideration, which like
+ coalescing multiple member properties into one member property, directly
+ dropping the old version or migrating with an external progress is
+ better.
  
  @param     value           The value to migrate.
  
@@ -40,8 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
                 from:(NSInteger)fromVersion
                   to:(NSInteger)toVersion;
 
-/** Returns a fallback value for a non-migration decoding a property named
- `key`. */
+/** Returns a fallback value for property `key` in non-migration
+ decoding. */
 + (nullable id)defaultValueForKey:(NSString *)key;
 
 - (instancetype)init;
