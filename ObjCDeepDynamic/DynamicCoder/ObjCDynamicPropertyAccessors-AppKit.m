@@ -11,7 +11,7 @@
 @import CoreGraphics;
 
 #import <ObjCDeepDynamic/ObjCDynamicPropertySynthesizer.h>
-#import "_OBJCDDValue.h"
+#import "_OBJCDDValue+AppKit.h"
 
 
 @ObjCDynamicPropertyGetter(NSPoint) {

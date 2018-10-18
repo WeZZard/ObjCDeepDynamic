@@ -292,7 +292,7 @@ void ObjCDynamicCodingDefaultEncodeCallBack (
 
         void * rawData = malloc(size);
         memset(rawData, 0, size);
-        if (@available(macOS 10.13, *)) {
+        if (@available(macOS 10.13, iOS 11.0, tvOS 11.0, *)) {
             [value getValue:rawData size:size];
         } else {
             [value getValue:rawData];

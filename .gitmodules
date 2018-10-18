@@ -1,0 +1,3 @@
+[submodule "Frameworks/fishhook"]
+	path = Frameworks/fishhook
+	url = https://metis.wezzard.com/source/fishhook.git

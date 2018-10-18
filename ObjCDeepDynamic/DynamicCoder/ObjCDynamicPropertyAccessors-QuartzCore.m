@@ -12,7 +12,7 @@
 @import UIKit;
 #elif TARGET_OS_TV
 @import UIKit;
-#elif TARGET_OS_MAC
+#elif TARGET_OS_OSX
 @import AppKit;
 #endif
 
