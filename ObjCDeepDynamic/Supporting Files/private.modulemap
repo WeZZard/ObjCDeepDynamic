@@ -1,0 +1,12 @@
+explicit module ObjCDeepDynamic.ObjCDynamicPropertySynthesizer {
+    header "ObjCDynamicPropertySynthesizer.h"
+}
+explicit module ObjCDeepDynamic.ObjCDynamicObjectSubclass {
+    header "ObjCDynamicObject+Subclass.h"
+}
+explicit module ObjCDeepDynamic.ObjCDynamicCoding {
+    header "ObjCDynamicCoding.h"
+}
+explicit module ObjCDeepDynamic.fishhook {
+    header "fishhook.h"
+}
