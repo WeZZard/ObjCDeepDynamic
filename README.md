@@ -27,6 +27,7 @@ Objective-C
 @end
 
 @implementation Config
+@dynamic configName
 @dynamic temperature
 @end
 ```
