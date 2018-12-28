@@ -35,13 +35,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -99,13 +109,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -139,13 +159,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -179,13 +209,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -222,13 +262,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -262,13 +312,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -308,13 +368,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -347,13 +417,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
@@ -399,13 +479,23 @@ class ObjCDynamicCodedTests: XCTestCase {
         
         let anObject = ArchivableObject(anEnumCase)
         
-        let archivedArbitraryObject = try! NSKeyedArchiver.archivedData(
-            withRootObject: anObject,
-            requiringSecureCoding: false
-        )
+        var unarchivedArbitraryObjectOrNil: Any?
         
-        let unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-            .unarchiveTopLevelObjectWithData(archivedArbitraryObject)
+        if #available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *) {
+            let archivedArbitraryObjectData = try! NSKeyedArchiver.archivedData(
+                withRootObject: anObject,
+                requiringSecureCoding: false
+            )
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        } else {
+            let archivedArbitraryObjectData = NSKeyedArchiver
+                .archivedData(withRootObject: anObject)
+            
+            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
+                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+        }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
             as? ArchivableObject else
