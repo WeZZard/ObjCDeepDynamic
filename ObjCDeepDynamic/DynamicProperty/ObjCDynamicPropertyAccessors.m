@@ -10,6 +10,10 @@
 #import <ObjCDeepDynamic/ObjCDynamicPropertySynthesizing.h>
 #import "_OBJCDDWeakValue.h"
 
+#if TARGET_CPU_X86 || TARGET_CPU_X86_64
+#import "_OBJCDDFloat80Value.h"
+#endif
+
 #pragma mark - id
 @ObjCDynamicPropertyGetter(id, RETAIN) {
     @synchronized (self) {
@@ -380,6 +384,24 @@
 @ObjCDynamicPropertySetter(double, NONATOMIC) {
     [self setPrimitiveValue:@(newValue) forKey:_prop];
 };
+
+#if TARGET_CPU_X86 || TARGET_CPU_X86_64
+@ObjCDynamicPropertyGetter(long double) {
+    return [[self primitiveValueForKey:_prop] float80Value];
+};
+
+@ObjCDynamicPropertySetter(long double) {
+    [self setPrimitiveValue:[[_OBJCDDFloat80Value alloc] initWithFloat80: newValue] forKey:_prop];
+};
+
+@ObjCDynamicPropertyGetter(long double, NONATOMIC) {
+    return [[self primitiveValueForKey:_prop] float80Value];
+};
+
+@ObjCDynamicPropertySetter(long double, NONATOMIC) {
+    [self setPrimitiveValue:[[_OBJCDDFloat80Value alloc] initWithFloat80: newValue] forKey:_prop];
+};
+#endif
 
 #pragma mark - BOOL
 #if __LP64__

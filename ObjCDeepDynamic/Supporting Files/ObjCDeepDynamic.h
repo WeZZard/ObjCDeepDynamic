@@ -7,4 +7,4 @@
 
 #import <ObjCDeepDynamic/ObjCDynamicPropertySynthesizing.h>
 #import <ObjCDeepDynamic/ObjCDynamicObject.h>
-#import <ObjCDeepDynamic/ObjCDynamicCoder.h>
+#import <ObjCDeepDynamic/ObjCDynamicCoded.h>

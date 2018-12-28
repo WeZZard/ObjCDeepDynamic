@@ -86,9 +86,9 @@
 		9C8C26FD2175EC7A00CF0E4A /* ObjCDeepDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8C26FE2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8C26FF2175EC7B00CF0E4A /* ObjCDeepDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8C27032175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */; };
-		9C8C27042175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */; };
-		9C8C27052175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */; };
+		9C8C27032175EEE200CF0E4A /* ObjCDynamicCodedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCodedTests.swift */; };
+		9C8C27042175EEE200CF0E4A /* ObjCDynamicCodedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCodedTests.swift */; };
+		9C8C27052175EEE200CF0E4A /* ObjCDynamicCodedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27012175EEE200CF0E4A /* ObjCDynamicCodedTests.swift */; };
 		9C8C27062175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
 		9C8C27072175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
 		9C8C27082175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */; };
@@ -125,20 +125,12 @@
 		9C953B3A217846CA008089A8 /* _OBJCDDValue+AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B38217846CA008089A8 /* _OBJCDDValue+AppKit.m */; };
 		9C953B412178479B008089A8 /* _OBJCDDValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27612176468600CF0E4A /* _OBJCDDValue.h */; };
 		9C953B422178479B008089A8 /* _OBJCDDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27622176468600CF0E4A /* _OBJCDDValue.m */; };
-		9C953B432178479B008089A8 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
-		9C953B442178479B008089A8 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */; };
 		9C953B452178479B008089A8 /* _OBJCDDValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27612176468600CF0E4A /* _OBJCDDValue.h */; };
 		9C953B462178479B008089A8 /* _OBJCDDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27622176468600CF0E4A /* _OBJCDDValue.m */; };
-		9C953B472178479B008089A8 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
-		9C953B482178479B008089A8 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */; };
 		9C953B492178479C008089A8 /* _OBJCDDValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27612176468600CF0E4A /* _OBJCDDValue.h */; };
 		9C953B4A2178479C008089A8 /* _OBJCDDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27622176468600CF0E4A /* _OBJCDDValue.m */; };
-		9C953B4B2178479C008089A8 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
-		9C953B4C2178479C008089A8 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */; };
 		9C953B4D2178479C008089A8 /* _OBJCDDValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27612176468600CF0E4A /* _OBJCDDValue.h */; };
 		9C953B4E2178479C008089A8 /* _OBJCDDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27622176468600CF0E4A /* _OBJCDDValue.m */; };
-		9C953B4F2178479C008089A8 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */; };
-		9C953B502178479C008089A8 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */; };
 		9C953B5E21785C59008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5821785C56008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m */; };
 		9C953B5F21785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5A21785C56008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
 		9C953B6021785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5A21785C56008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m */; };
@@ -153,6 +145,22 @@
 		9C953B6A21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */; };
 		9C953B6B21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */; };
 		9C953B6C21785C6C008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */; };
+		9CD4017521D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017421D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift */; };
+		9CD4017621D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017421D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift */; };
+		9CD4017721D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017421D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift */; };
+		9CD4017921D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017821D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift */; };
+		9CD4017A21D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017821D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift */; };
+		9CD4017B21D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017821D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift */; };
+		9CD4017E21D6237700F92106 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */; };
+		9CD4017F21D6237700F92106 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */; };
+		9CD4018021D6237700F92106 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */; };
+		9CD4018121D6237700F92106 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */; };
+		9CD4018221D6237700F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
+		9CD4018821D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
+		9CD4018921D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
+		9CD4018A21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
+		9CD4018B21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
+		9CD4018C21D6239C00F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,7 +218,7 @@
 		9C8C26BC2175EBE500CF0E4A /* ObjCDynamicObject+Subclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCDynamicObject+Subclass.h"; sourceTree = "<group>"; };
 		9C8C26FB2175EC7700CF0E4A /* ObjCDeepDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDeepDynamic.h; sourceTree = "<group>"; };
 		9C8C27002175EE7400CF0E4A /* public.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = public.modulemap; sourceTree = "<group>"; };
-		9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjCDynamicCoderTests.swift; sourceTree = "<group>"; };
+		9C8C27012175EEE200CF0E4A /* ObjCDynamicCodedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjCDynamicCodedTests.swift; sourceTree = "<group>"; };
 		9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCDynamicPropertySynthesizingTests.m; sourceTree = "<group>"; };
 		9C8C27222175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-AVFoundation.m"; sourceTree = "<group>"; };
 		9C8C27232175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-UIKit.m"; sourceTree = "<group>"; };
@@ -230,8 +238,6 @@
 		9C8C275F217643BA00CF0E4A /* ObjCDynamicCoding-AppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicCoding-AppKit.m"; sourceTree = "<group>"; };
 		9C8C27612176468600CF0E4A /* _OBJCDDValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDValue.h; sourceTree = "<group>"; };
 		9C8C27622176468600CF0E4A /* _OBJCDDValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDValue.m; sourceTree = "<group>"; };
-		9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDWeakValue.h; sourceTree = "<group>"; };
-		9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDWeakValue.m; sourceTree = "<group>"; };
 		9C953B37217846CA008089A8 /* _OBJCDDValue+AppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_OBJCDDValue+AppKit.h"; sourceTree = "<group>"; };
 		9C953B38217846CA008089A8 /* _OBJCDDValue+AppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_OBJCDDValue+AppKit.m"; sourceTree = "<group>"; };
 		9C953B5821785C56008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-AppKit.m"; sourceTree = "<group>"; };
@@ -240,6 +246,12 @@
 		9C953B5B21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m"; sourceTree = "<group>"; };
 		9C953B5C21785C56008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-CoreGraphics(CocoaTouch).m"; sourceTree = "<group>"; };
 		9C953B5D21785C56008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ObjCDynamicPropertyAccessors-UIKit.m"; sourceTree = "<group>"; };
+		9CD4017421D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCDynamicPropertySynthesizingTestObject.swift; sourceTree = "<group>"; };
+		9CD4017821D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCDynamicPropertySynthesizingTests.swift; sourceTree = "<group>"; };
+		9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDWeakValue.h; sourceTree = "<group>"; };
+		9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDWeakValue.m; sourceTree = "<group>"; };
+		9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDFloat80Value.h; sourceTree = "<group>"; };
+		9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDFloat80Value.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,8 +337,8 @@
 			isa = PBXGroup;
 			children = (
 				9C8C26F62175EC0200CF0E4A /* DynamicProperty */,
-				9C8C26F82175EC2000CF0E4A /* DynamicCoded */,
 				9C8C26F72175EC1400CF0E4A /* DynamicObject */,
+				9C8C26F82175EC2000CF0E4A /* DynamicCoded */,
 				9C8C27592176431A00CF0E4A /* _OBJCDDValue */,
 				9C8C26FA2175EC4B00CF0E4A /* ThirdParty */,
 				9C8C26F92175EC2D00CF0E4A /* Supporting Files */,
@@ -426,7 +438,7 @@
 			isa = PBXGroup;
 			children = (
 				9C8C273A2175F92000CF0E4A /* TestAuxiliaries */,
-				9C8C27012175EEE200CF0E4A /* ObjCDynamicCoderTests.swift */,
+				9C8C27012175EEE200CF0E4A /* ObjCDynamicCodedTests.swift */,
 			);
 			path = DynamicCoder;
 			sourceTree = "<group>";
@@ -437,6 +449,8 @@
 				9C8C273D2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.h */,
 				9C8C273E2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m */,
 				9C8C27022175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m */,
+				9CD4017421D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift */,
+				9CD4017821D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift */,
 			);
 			path = DynamicProperty;
 			sourceTree = "<group>";
@@ -448,8 +462,10 @@
 				9C8C27622176468600CF0E4A /* _OBJCDDValue.m */,
 				9C953B37217846CA008089A8 /* _OBJCDDValue+AppKit.h */,
 				9C953B38217846CA008089A8 /* _OBJCDDValue+AppKit.m */,
-				9C8C27652176482200CF0E4A /* _OBJCDDWeakValue.h */,
-				9C8C27662176482200CF0E4A /* _OBJCDDWeakValue.m */,
+				9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */,
+				9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */,
+				9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */,
+				9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */,
 				9C8C274921761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h */,
 				9C8C274A21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m */,
 				9C8C274D21761DBD00CF0E4A /* _OBJCDDCGVectorValue.h */,
@@ -483,7 +499,8 @@
 				9C8C26A72175EBB500CF0E4A /* fishhook.h in Headers */,
 				9C8C26EC2175EBEA00CF0E4A /* ObjCDynamicObject.h in Headers */,
 				9C8C26EE2175EBEA00CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
-				9C953B4F2178479C008089A8 /* _OBJCDDWeakValue.h in Headers */,
+				9CD4018821D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
+				9CD4017E21D6237700F92106 /* _OBJCDDWeakValue.h in Headers */,
 				9C8C26F02175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,10 +519,11 @@
 				9C8C26E52175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */,
 				9C8C26A82175EBB500CF0E4A /* fishhook.h in Headers */,
 				9C8C26DE2175EBE900CF0E4A /* ObjCDynamicObject.h in Headers */,
-				9C953B4B2178479C008089A8 /* _OBJCDDWeakValue.h in Headers */,
+				9CD4017F21D6237700F92106 /* _OBJCDDWeakValue.h in Headers */,
 				9C953B492178479C008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26E02175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26E22175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
+				9CD4018921D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,10 +541,11 @@
 				9C8C26D72175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */,
 				9C8C26A92175EBB600CF0E4A /* fishhook.h in Headers */,
 				9C8C26D02175EBE900CF0E4A /* ObjCDynamicObject.h in Headers */,
-				9C953B472178479B008089A8 /* _OBJCDDWeakValue.h in Headers */,
+				9CD4018021D6237700F92106 /* _OBJCDDWeakValue.h in Headers */,
 				9C953B452178479B008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26D22175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26D42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
+				9CD4018A21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,10 +563,11 @@
 				9C8C26C92175EBE800CF0E4A /* ObjCDynamicPropertySynthesizing.h in Headers */,
 				9C8C26AA2175EBB600CF0E4A /* fishhook.h in Headers */,
 				9C8C26C22175EBE800CF0E4A /* ObjCDynamicObject.h in Headers */,
-				9C953B432178479B008089A8 /* _OBJCDDWeakValue.h in Headers */,
+				9CD4018121D6237700F92106 /* _OBJCDDWeakValue.h in Headers */,
 				9C953B412178479B008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26C42175EBE800CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26C62175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
+				9CD4018B21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,9 +821,10 @@
 				9C953B3A217846CA008089A8 /* _OBJCDDValue+AppKit.m in Sources */,
 				9C8C26EF2175EBEA00CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
 				9C8C27252175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
+				9CD4018C21D6239C00F92106 /* _OBJCDDFloat80Value.m in Sources */,
 				9C8C275B2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m in Sources */,
-				9C953B502178479C008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26F12175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
+				9CD4018221D6237700F92106 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26ED2175EBEA00CF0E4A /* ObjCDynamicObject.m in Sources */,
 				9C953B6221785C5F008089A8 /* ObjCDynamicPropertyAccessors-CoreGraphics(Cocoa).m in Sources */,
 				9C953B5E21785C59008089A8 /* ObjCDynamicPropertyAccessors-AppKit.m in Sources */,
@@ -823,12 +844,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C27032175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */,
+				9CD4017521D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift in Sources */,
+				9C8C27032175EEE200CF0E4A /* ObjCDynamicCodedTests.swift in Sources */,
 				9C8C274621761AD100CF0E4A /* ArchivableObject.swift in Sources */,
 				9C8C27062175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */,
 				9C8C27362175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */,
 				9C8C27322175F83200CF0E4A /* ArchivableEnum.swift in Sources */,
 				9C8C273F2175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */,
+				9CD4017921D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -843,7 +866,6 @@
 				9C8C275E2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
 				9C953B6721785C66008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 				9C8C26E32175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
-				9C953B4C2178479C008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26DF2175EBE900CF0E4A /* ObjCDynamicObject.m in Sources */,
 				9C8C26A02175EB7E00CF0E4A /* fishhook.c in Sources */,
 				9C8C272A2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
@@ -859,12 +881,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C27042175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */,
+				9CD4017621D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift in Sources */,
+				9C8C27042175EEE200CF0E4A /* ObjCDynamicCodedTests.swift in Sources */,
 				9C8C274721761AD200CF0E4A /* ArchivableObject.swift in Sources */,
 				9C8C27072175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */,
 				9C8C27372175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */,
 				9C8C27332175F83200CF0E4A /* ArchivableEnum.swift in Sources */,
 				9C8C27402175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */,
+				9CD4017A21D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,7 +907,6 @@
 				9C8C26D82175EBE900CF0E4A /* ObjCDynamicPropertySynthesizing.mm in Sources */,
 				9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoded.m in Sources */,
 				9C8C275D2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
-				9C953B482178479B008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26CE2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -899,7 +922,6 @@
 				9C8C275C2176437200CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
 				9C953B6821785C67008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 				9C8C26C72175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
-				9C953B442178479B008089A8 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C26C32175EBE800CF0E4A /* ObjCDynamicObject.m in Sources */,
 				9C8C26A22175EB7F00CF0E4A /* fishhook.c in Sources */,
 				9C8C272C2175F58800CF0E4A /* ObjCDynamicCoding-UIKit.m in Sources */,
@@ -915,12 +937,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8C27052175EEE200CF0E4A /* ObjCDynamicCoderTests.swift in Sources */,
+				9CD4017721D61C1E00F92106 /* ObjCDynamicPropertySynthesizingTestObject.swift in Sources */,
+				9C8C27052175EEE200CF0E4A /* ObjCDynamicCodedTests.swift in Sources */,
 				9C8C274821761AD300CF0E4A /* ArchivableObject.swift in Sources */,
 				9C8C27082175EEE200CF0E4A /* ObjCDynamicPropertySynthesizingTests.m in Sources */,
 				9C8C27382175F86F00CF0E4A /* ArchivableEnumObjCBridged.swift in Sources */,
 				9C8C27342175F83200CF0E4A /* ArchivableEnum.swift in Sources */,
 				9C8C27412175F99900CF0E4A /* ObjCDynamicPropertySynthesizingTestObject.m in Sources */,
+				9CD4017B21D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

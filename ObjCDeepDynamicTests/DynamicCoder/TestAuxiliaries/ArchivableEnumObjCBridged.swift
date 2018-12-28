@@ -20,7 +20,7 @@ import AVFoundation
 
 
 @objc
-internal class ArchivableEnumObjCBridged: ObjCDynamicCoder {
+internal class ArchivableEnumObjCBridged: ObjCDynamicCoded {
     
 }
 

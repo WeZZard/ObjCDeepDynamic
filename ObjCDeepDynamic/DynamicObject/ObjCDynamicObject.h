@@ -11,7 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// `ObjCDynamicObject` automatically synthesizes all the @dynamic properties.
+/// `ObjCDynamicObject` automatically synthesizes all the `@dynamic`
+/// properties.
+///
 @interface ObjCDynamicObject : NSObject<
     ObjCDynamicPropertySynthesizing, NSCopying
 >

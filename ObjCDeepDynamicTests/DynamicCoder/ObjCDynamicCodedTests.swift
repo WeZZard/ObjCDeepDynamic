@@ -1,5 +1,5 @@
 //
-//  ObjCDynamicCoderTests.swift
+//  ObjCDynamicCodedTests.swift
 //  ObjCDeepDynamic
 //
 //  Created by WeZZard on 26/12/2016.
@@ -19,7 +19,7 @@ import CoreGraphics
     import AVFoundation
 #endif
 
-class ObjCDynamicCoderTests: XCTestCase {
+class ObjCDynamicCodedTests: XCTestCase {
     func testIntegerAccessor() {
         let anEnumCase: ArchivableEnum = .integerAccessor(
             1,
