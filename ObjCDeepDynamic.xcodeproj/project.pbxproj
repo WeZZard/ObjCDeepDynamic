@@ -157,10 +157,16 @@
 		9CD4018121D6237700F92106 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */; };
 		9CD4018221D6237700F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
 		9CD4018821D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
-		9CD4018921D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
-		9CD4018A21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
-		9CD4018B21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
 		9CD4018C21D6239C00F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
+		9CD4019321D689EE00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
+		9CD4019421D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
+		9CD4019521D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
+		9CD4019621D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
+		9CD4019721D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
+		9CD4019821D689F300F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
+		9CD4019921D689F700F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
+		9CD4019A21D689F700F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
+		9CD4019B21D689F800F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -523,7 +529,7 @@
 				9C953B492178479C008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26E02175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26E22175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
-				9CD4018921D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
+				9CD4019321D689EE00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +551,7 @@
 				9C953B452178479B008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26D22175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26D42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
-				9CD4018A21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
+				9CD4019421D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +573,7 @@
 				9C953B412178479B008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26C42175EBE800CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26C62175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
-				9CD4018B21D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
+				9CD4019521D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,10 +865,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD4019821D689F300F92106 /* _OBJCDDFloat80Value.m in Sources */,
 				9C953B6C21785C6C008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
 				9C8C26E12175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
 				9C953B6021785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C8C27262175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
+				9CD4019B21D689F800F92106 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C275E2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
 				9C953B6721785C66008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 				9C8C26E32175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
@@ -908,6 +916,8 @@
 				9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoded.m in Sources */,
 				9C8C275D2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
 				9C8C26CE2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */,
+				9CD4019721D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */,
+				9CD4019A21D689F700F92106 /* _OBJCDDWeakValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,10 +925,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD4019621D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */,
 				9C953B6A21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
 				9C8C26C52175EBE800CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
 				9C953B6121785C5C008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
 				9C8C27282175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
+				9CD4019921D689F700F92106 /* _OBJCDDWeakValue.m in Sources */,
 				9C8C275C2176437200CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
 				9C953B6821785C67008089A8 /* ObjCDynamicPropertyAccessors-QuartzCore.m in Sources */,
 				9C8C26C72175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,

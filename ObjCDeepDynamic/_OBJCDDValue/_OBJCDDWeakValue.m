@@ -7,6 +7,7 @@
 
 #import "_OBJCDDWeakValue.h"
 
+#if TARGET_CPU_X86 || TARGET_CPU_X86_64
 @interface _OBJCDDWeakValue() {
     __weak id _object;
 }
@@ -53,3 +54,4 @@
     [aCoder encodeConditionalObject: _object forKey: @"object"];
 }
 @end
+#endif

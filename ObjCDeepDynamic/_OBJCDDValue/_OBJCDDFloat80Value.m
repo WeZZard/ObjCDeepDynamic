@@ -7,6 +7,7 @@
 
 #import "_OBJCDDFloat80Value.h"
 
+#if TARGET_CPU_X86 || TARGET_CPU_X86_64
 @interface _OBJCDDFloat80Value() {
     long double _float80Value;
 }
@@ -57,3 +58,4 @@
     [aCoder encodeBytes: (void *)&_float80Value length: sizeof(_float80Value) forKey: @"float80Value"];
 }
 @end
+#endif
