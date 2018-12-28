@@ -1,5 +1,8 @@
 # ObjCDeepDynamic
 
+[![Build Status](https://travis-ci.com/WeZZard/ObjCDeepDynamic.svg?branch=master)](https://travis-ci.com/WeZZard/ObjCDeepDynamic)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 ObjCDeepDynamic is an Objective-C/Swift framework eases the pain of
 implementing a class whose properties shall be all `@dynamic` and
 the class itself shall be conformed to `NSCoding`.
