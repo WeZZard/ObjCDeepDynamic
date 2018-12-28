@@ -49,8 +49,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -123,8 +123,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -173,8 +173,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -223,8 +223,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -276,8 +276,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -326,8 +326,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -382,8 +382,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -431,8 +431,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
@@ -493,8 +493,8 @@ class ObjCDynamicCodedTests: XCTestCase {
             let archivedArbitraryObjectData = NSKeyedArchiver
                 .archivedData(withRootObject: anObject)
             
-            unarchivedArbitraryObjectOrNil = try! NSKeyedUnarchiver
-                .unarchiveTopLevelObjectWithData(archivedArbitraryObjectData)
+            unarchivedArbitraryObjectOrNil = NSKeyedUnarchiver
+                .unarchiveObject(with: archivedArbitraryObjectData)
         }
         
         guard let unarchivedArbitraryObject = unarchivedArbitraryObjectOrNil
