@@ -1060,8 +1060,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1138,8 +1138,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-macOS";
@@ -1356,8 +1356,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1433,8 +1433,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-iOS";
@@ -1654,8 +1654,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1732,8 +1732,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-watchOS";
@@ -1815,8 +1815,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1892,8 +1892,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "ObjCDeepDynamic/Supporting Files/public.modulemap";
-				MODULEMAP_PRIVATE_FILE = "ObjCDeepDynamic/Supporting Files/private.modulemap";
+				MODULEMAP_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/public.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$PROJECT_DIR/ObjCDeepDynamic/Supporting Files/private.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WeZZard.ObjCDeepDynamic-tvOS";
