@@ -4,11 +4,11 @@ Offers deep dynamic for Objective-C.
 
 ## Features
 
-- General `@dynamic` property synthesizing.
+- `@dynamic` property auto synthesizing.
 
-- `@dynamic` property coder.
+- A class supports `@dynamic` property auto synthesizing.
 
-- Dynamic object supports `@dynamic` property syntheizing and coding/decoding.
+- A class supports `@dynamic` property auto syntheizing and coding/decoding.
 
 ## License
 MIT
