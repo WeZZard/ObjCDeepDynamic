@@ -4,17 +4,16 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ObjCDeepDynamic is an Objective-C/Swift framework eases the pain of
-implementing a class whose properties shall be all `@dynamic` and
-the class itself shall be conformed to `NSCoding`.
+implementing dumbly data classes by automatically synthesizing `@dynamic`
+properties and (optionally) conforming to `NSCoding`.
 
 ## Features
 
-- `@dynamic` property auto synthesizing.
-- An out-of-box class supports `@dynamic` property auto synthesizing.
-- An out-of-box class supports `@dynamic` property auto syntheizing and
-  coding/decoding.
-- Enrich `@dynamic` property auto synthesizing supported types.
-- Custom class dynamic property auto synthesizing.
+- An out-of-box base class supports `@dynamic` property auto synthesizing.
+- An out-of-box base class supports `@dynamic` property auto synthesizing
+  with `NSCoding` implemented.
+- Enriching auto synthesizing supported types for `@dynamic` property.
+- Quickly implementing your dynamic property auto synthesize-able classes.
 
 ## Example: Dynamic Property Synthesizing
 
