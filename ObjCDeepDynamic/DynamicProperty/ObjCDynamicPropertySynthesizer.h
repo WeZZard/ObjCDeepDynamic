@@ -33,8 +33,8 @@ typedef NS_OPTIONS(NSInteger, ObjCDynamicPropertyAttributes) {
 /// metamacros's the largest argument number and `##__VA__ARGS__` eliminates
 /// itself when `__VA__ARGS__` has nothing.
 ///
-/// So this means to resolve `_OBJC_DYNAMIC_PROPERTY_ATTRIBUTE_NONE` when there
-/// is no coming arguments.
+/// So this means to resolve `_OBJC_DYNAMIC_PROPERTY_ATTRIBUTE_NONE` when
+/// there is no coming arguments.
 #define ObjCDynamicPropertyAttributesMake(...) \
     metamacro_foreach_concat(,,_ObjCDynamicPropertyAttributeOptions(_OBJC_DYNAMIC_PROPERTY_ATTRIBUTE_NONE, ##__VA_ARGS__))
 
@@ -49,8 +49,8 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
 #define WEAK       _OBJC_DYNAMIC_PROPERTY_ATTRIBUTE_WEAK
 
 #if DEBUG // With debug info
-/// Defines a global dynamic property getter. Does nothing when there is an
-/// existed one with specified return type and property attributes.
+/// Defines a global dynamic property getter. Does nothing when there is
+/// an existed one with specified return type and property attributes.
 #define ObjCDynamicPropertyGetter(RETURN_TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertyGetter(RETURN_TYPE); \
@@ -61,8 +61,8 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
         } \
         _ObjCDynamicPropertyGetter(RETURN_TYPE)
 
-/// Defines a global dynamic property setter. Does nothing when there is an
-/// existed one with specified return type and property attributes.
+/// Defines a global dynamic property setter. Does nothing when there is
+/// an existed one with specified return type and property attributes.
 #define ObjCDynamicPropertySetter(TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertySetter(TYPE); \
@@ -73,8 +73,8 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
         } \
         _ObjCDynamicPropertySetter(TYPE)
 #else // Without debug info
-/// Defines a global dynamic property getter. Does nothing when there is an
-/// existed one with specified return type and property attributes.
+/// Defines a global dynamic property getter. Does nothing when there is
+/// an existed one with specified return type and property attributes.
 #define ObjCDynamicPropertyGetter(RETURN_TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertyGetter(RETURN_TYPE); \
@@ -85,8 +85,8 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
         } \
         _ObjCDynamicPropertyGetter(RETURN_TYPE)
 
-/// Defines a global dynamic property setter. Does nothing when there is an
-/// existed one with specified return type and property attributes.
+/// Defines a global dynamic property setter. Does nothing when there is
+/// an existed one with specified return type and property attributes.
 #define ObjCDynamicPropertySetter(TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertySetter(TYPE); \
@@ -99,8 +99,8 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
 #endif
 
 /// Defines a class specific dynamic property getter. Always replace the
-/// originally one whenever whether is an existed one with specified return type
-/// and property attributes.
+/// originally one whenever whether is an existed one with specified
+/// return type and property attributes.
 #define ObjCDynamicPropertyClassSpecificGetter(CLASS, RETURN_TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertyClassSpecificGetter(RETURN_TYPE, CLASS); \
@@ -112,8 +112,8 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
         _ObjCDynamicPropertyClassSpecificGetter(RETURN_TYPE, CLASS)
 
 /// Defines a class specific dynamic property setter. Always replace the
-/// originally one whenever whether is an existed one with specified return type
-/// and property attributes.
+/// originally one whenever whether is an existed one with specified
+/// return type and property attributes.
 #define ObjCDynamicPropertyClassSpecificSetter(CLASS, TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertyClassSpecificSetter(CLASS, TYPE); \
@@ -124,9 +124,9 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
         } \
         _ObjCDynamicPropertyClassSpecificSetter(CLASS, TYPE)
 
-/// Defines a protocol specific dynamic property getter. Always replace the
-/// originally one whenever whether is an existed one with specified return type
-/// and property attributes.
+/// Defines a protocol specific dynamic property getter. Always replace
+/// the originally one whenever whether is an existed one with specified
+/// return type and property attributes.
 #define ObjCDynamicPropertyProtocolSpecificGetter(PROTOCOL, RETURN_TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertyProtocolSpecificGetter(RETURN_TYPE, PROTOCOL); \
@@ -137,9 +137,9 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
         } \
         _ObjCDynamicPropertyProtocolSpecificGetter(RETURN_TYPE, PROTOCOL)
 
-/// Defines a protocol specific dynamic property setter. Always replace the
-/// originally one whenever whether is an existed one with specified return type
-/// and property attributes.
+/// Defines a protocol specific dynamic property setter. Always replace
+/// the originally one whenever whether is an existed one with specified
+/// return type and property attributes.
 #define ObjCDynamicPropertyProtocolSpecificSetter(PROTOCOL, TYPE, ...) \
     _OBJCDD_KEYWORD_FILE_SCOPE \
         static _ObjCDynamicPropertyProtocolSpecificSetter(PROTOCOL, TYPE); \
@@ -158,15 +158,15 @@ NS_SWIFT_UNAVAILABLE("NSStringFromObjCDynamicPropertyAttributes is unavailable i
 
 /// Adds a global dynamic property getter implementation.
 ///
-/// Returns NO when there is an existed one. The adding operation is ommited at
-/// the same time.
+/// Returns NO when there is an existed one. The adding operation is
+/// ommited at the same time.
 FOUNDATION_EXTERN BOOL ObjCDynamicPropertySynthesizerAddGetter(IMP imp, const char * typeEncoding, ObjCDynamicPropertyAttributes attributes)
 NS_SWIFT_UNAVAILABLE("ObjCDynamicPropertySynthesizerAddGetter is unavailable in Swift. Define dynamic property's implementation in Objective-C instead.");
 
 /// Adds a global dynamic property setter implementation.
 ///
-/// Returns NO when there is an existed one. The adding operation is ommited at
-/// the same time.
+/// Returns NO when there is an existed one. The adding operation is
+/// ommited at the same time.
 FOUNDATION_EXTERN BOOL ObjCDynamicPropertySynthesizerAddSetter(IMP imp, const char * typeEncoding, ObjCDynamicPropertyAttributes attributes)
 NS_SWIFT_UNAVAILABLE("ObjCDynamicPropertySynthesizerAddSetter is unavailable in Swift. Define dynamic property's implementation in Objective-C instead.");
 
@@ -186,8 +186,8 @@ NS_SWIFT_UNAVAILABLE("ObjCDynamicPropertySynthesizerSetProtocolSpecificGetter is
 FOUNDATION_EXTERN void ObjCDynamicPropertySynthesizerSetProtocolSpecificSetter(Protocol * protocol, IMP imp, const char * typeEncoding, ObjCDynamicPropertyAttributes attributes)
 NS_SWIFT_UNAVAILABLE("ObjCDynamicPropertySynthesizerSetProtocolSpecificSetter is unavailable in Swift. Define dynamic property's implementation in Objective-C instead.");
 
-/// Gets the dynamic property's name with its class and selector(whenever the
-/// setter or getter's).
+/// Gets the dynamic property's name with its class and selector(whenever
+/// the setter or getter's).
 ///
 /// wrapper the the internal raw C string.
 FOUNDATION_EXTERN NSString * ObjCDynamicPropertySynthesizerGetPropertyNameForSelectorWithClass(SEL selector, Class cls)
@@ -207,17 +207,23 @@ NS_SWIFT_UNAVAILABLE("ObjCDynamicPropertySynthesizerGetPropertyNameForSelectorWi
 /// A simple simulation to the following decision tree:
 ///
 /// ```
-///     NOTHING
-///   /         \
-/// COPY      NOT COPY
-///          /        \
-///       RETAIN  NOT RETAIN
-///              /          \
-///         NONATOMIC  NOT NOATOMIC
-///                   /            \
-///                 WEAK        NOT WEAK
-///                                     \
-///                                    NONE
+///    IS COPY?
+///   /        \
+/// COPY     NOT COPY
+///             |
+///         IS RETAIN?
+///         /        \
+///      RETAIN  NOT RETAIN
+///                  |
+///             IS NONATOMIC?
+///             /          \
+///        NONATOMIC  NOT NONATOMIC
+///                         |
+///                      IS WEAK?
+///                     /        \
+///                   WEAK    NOT WEAK
+///                               |
+///                              NONE
 ///
 /// ```
 #define _ObjCDynamicPropertyAttributeOption(INDEX, ARG) \
@@ -232,12 +238,13 @@ NS_SWIFT_UNAVAILABLE("ObjCDynamicPropertySynthesizerGetPropertyNameForSelectorWi
         ) \
     )
 
-/// Resolves property attributes options from arguments and concatenates them
-/// with a "|" operator.
+/// Resolves property attribute options from arguments and concatenates
+/// them with a "|" operator.
 #define _ObjCDynamicPropertyAttributeOptions(...) \
     metamacro_foreach(_ObjCDynamicPropertyAttributeOption,|, __VA_ARGS__)
 
-/// Generates a dynamic property utility function name like A_B_LineNumber.
+/// Generates a dynamic property utility function name like
+/// A_B_LineNumber.
 #define _ObjCDynamicPropertySymbolSpecificFunctionName(TITLE, SYMBOL) \
     metamacro_concat(\
         metamacro_concat(\
@@ -269,8 +276,8 @@ NS_SWIFT_UNAVAILABLE("ObjCDynamicPropertySynthesizerGetPropertyNameForSelectorWi
 #define _ObjCDynamicPropertyProtocolSpecificSetter(PROTOCOL, TYPE) void _ObjCDynamicPropertyProtocolSpecificSetterName(PROTOCOL)(id<PROTOCOL> self, SEL _cmd, TYPE newValue)
 
 #if DEBUG
-/// Adds a global dynamic property getter implementation and logs failure info
-/// if it is failed when built with `DEBUG` configuration.
+/// Adds a global dynamic property getter implementation and logs failure
+/// info if it is failed when built with `DEBUG` configuration.
 __attribute__((visibility("hidden")))
 FOUNDATION_EXTERN void ObjCDynamicPropertySynthesizerAddGetterWithDebugInfo(
     IMP imp,
@@ -282,8 +289,8 @@ FOUNDATION_EXTERN void ObjCDynamicPropertySynthesizerAddGetterWithDebugInfo(
 )
 NS_SWIFT_UNAVAILABLE("_ObjCDynamicPropertySynthesizerAddGetter is unavailable in Swift, define dynamic property's implementation with Objective-C instead.");
 
-/// Adds a global dynamic property setter implementation and logs failure info
-/// if it is failed when built with `DEBUG` configuration.
+/// Adds a global dynamic property setter implementation and logs failure
+/// info if it is failed when built with `DEBUG` configuration.
 __attribute__((visibility("hidden")))
 FOUNDATION_EXTERN void ObjCDynamicPropertySynthesizerAddSetterWithDebugInfo(
     IMP imp,
