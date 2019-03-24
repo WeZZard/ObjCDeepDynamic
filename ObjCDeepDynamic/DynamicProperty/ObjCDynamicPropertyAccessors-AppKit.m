@@ -13,6 +13,23 @@
 #import <ObjCDeepDynamic/ObjCDynamicPropertySynthesizer.h>
 #import "_OBJCDDValue+AppKit.h"
 
+#import "_OBJCDDLongDoubleValue.h"
+
+@ObjCDynamicPropertyGetter(long double) {
+    return [[self primitiveValueForKey:_prop] longDoubleValue];
+};
+
+@ObjCDynamicPropertySetter(long double) {
+    [self setPrimitiveValue:[[_OBJCDDLongDoubleValue alloc] initWithLongDouble: newValue] forKey:_prop];
+};
+
+@ObjCDynamicPropertyGetter(long double, NONATOMIC) {
+    return [[self primitiveValueForKey:_prop] longDoubleValue];
+};
+
+@ObjCDynamicPropertySetter(long double, NONATOMIC) {
+    [self setPrimitiveValue:[[_OBJCDDLongDoubleValue alloc] initWithLongDouble: newValue] forKey:_prop];
+};
 
 @ObjCDynamicPropertyGetter(NSPoint) {
     @synchronized (self) {

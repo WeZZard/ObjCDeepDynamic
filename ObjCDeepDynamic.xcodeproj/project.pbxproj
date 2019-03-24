@@ -156,14 +156,8 @@
 		9CD4018021D6237700F92106 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */; };
 		9CD4018121D6237700F92106 /* _OBJCDDWeakValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */; };
 		9CD4018221D6237700F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
-		9CD4018821D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
-		9CD4018C21D6239C00F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
-		9CD4019321D689EE00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
-		9CD4019421D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
-		9CD4019521D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */; };
-		9CD4019621D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
-		9CD4019721D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
-		9CD4019821D689F300F92106 /* _OBJCDDFloat80Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */; };
+		9CD4018821D6239C00F92106 /* _OBJCDDLongDoubleValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4018621D6239C00F92106 /* _OBJCDDLongDoubleValue.h */; };
+		9CD4018C21D6239C00F92106 /* _OBJCDDLongDoubleValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4018721D6239C00F92106 /* _OBJCDDLongDoubleValue.m */; };
 		9CD4019921D689F700F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
 		9CD4019A21D689F700F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
 		9CD4019B21D689F800F92106 /* _OBJCDDWeakValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */; };
@@ -256,8 +250,8 @@
 		9CD4017821D61DB400F92106 /* ObjCDynamicPropertySynthesizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCDynamicPropertySynthesizingTests.swift; sourceTree = "<group>"; };
 		9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDWeakValue.h; sourceTree = "<group>"; };
 		9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDWeakValue.m; sourceTree = "<group>"; };
-		9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDFloat80Value.h; sourceTree = "<group>"; };
-		9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDFloat80Value.m; sourceTree = "<group>"; };
+		9CD4018621D6239C00F92106 /* _OBJCDDLongDoubleValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _OBJCDDLongDoubleValue.h; sourceTree = "<group>"; };
+		9CD4018721D6239C00F92106 /* _OBJCDDLongDoubleValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _OBJCDDLongDoubleValue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -470,8 +464,8 @@
 				9C953B38217846CA008089A8 /* _OBJCDDValue+AppKit.m */,
 				9CD4017C21D6237700F92106 /* _OBJCDDWeakValue.h */,
 				9CD4017D21D6237700F92106 /* _OBJCDDWeakValue.m */,
-				9CD4018621D6239C00F92106 /* _OBJCDDFloat80Value.h */,
-				9CD4018721D6239C00F92106 /* _OBJCDDFloat80Value.m */,
+				9CD4018621D6239C00F92106 /* _OBJCDDLongDoubleValue.h */,
+				9CD4018721D6239C00F92106 /* _OBJCDDLongDoubleValue.m */,
 				9C8C274921761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.h */,
 				9C8C274A21761DB000CF0E4A /* _OBJCDDNSEdgeInsetsValue.m */,
 				9C8C274D21761DBD00CF0E4A /* _OBJCDDCGVectorValue.h */,
@@ -505,7 +499,7 @@
 				9C8C26A72175EBB500CF0E4A /* fishhook.h in Headers */,
 				9C8C26EC2175EBEA00CF0E4A /* ObjCDynamicObject.h in Headers */,
 				9C8C26EE2175EBEA00CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
-				9CD4018821D6239C00F92106 /* _OBJCDDFloat80Value.h in Headers */,
+				9CD4018821D6239C00F92106 /* _OBJCDDLongDoubleValue.h in Headers */,
 				9CD4017E21D6237700F92106 /* _OBJCDDWeakValue.h in Headers */,
 				9C8C26F02175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
 			);
@@ -529,7 +523,6 @@
 				9C953B492178479C008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26E02175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26E22175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
-				9CD4019321D689EE00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +544,6 @@
 				9C953B452178479B008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26D22175EBE900CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26D42175EBE900CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
-				9CD4019421D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +565,6 @@
 				9C953B412178479B008089A8 /* _OBJCDDValue.h in Headers */,
 				9C8C26C42175EBE800CF0E4A /* ObjCDynamicObject+Subclass.h in Headers */,
 				9C8C26C62175EBE800CF0E4A /* ObjCDynamicPropertySynthesizer.h in Headers */,
-				9CD4019521D689EF00F92106 /* _OBJCDDFloat80Value.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,7 +818,7 @@
 				9C953B3A217846CA008089A8 /* _OBJCDDValue+AppKit.m in Sources */,
 				9C8C26EF2175EBEA00CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
 				9C8C27252175F58800CF0E4A /* ObjCDynamicCoding-AVFoundation.m in Sources */,
-				9CD4018C21D6239C00F92106 /* _OBJCDDFloat80Value.m in Sources */,
+				9CD4018C21D6239C00F92106 /* _OBJCDDLongDoubleValue.m in Sources */,
 				9C8C275B2176435B00CF0E4A /* ObjCDynamicCoding-CoreGraphics(Cocoa).m in Sources */,
 				9C8C26F12175EBEA00CF0E4A /* ObjCDynamicPropertySynthesizer.mm in Sources */,
 				9CD4018221D6237700F92106 /* _OBJCDDWeakValue.m in Sources */,
@@ -865,7 +856,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD4019821D689F300F92106 /* _OBJCDDFloat80Value.m in Sources */,
 				9C953B6C21785C6C008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
 				9C8C26E12175EBE900CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
 				9C953B6021785C5B008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
@@ -916,7 +906,6 @@
 				9C8C26CC2175EBE900CF0E4A /* ObjCDynamicCoded.m in Sources */,
 				9C8C275D2176437300CF0E4A /* ObjCDynamicCoding-CoreGraphics(CocoaTouch).m in Sources */,
 				9C8C26CE2175EBE900CF0E4A /* ObjCDynamicCoding.m in Sources */,
-				9CD4019721D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */,
 				9CD4019A21D689F700F92106 /* _OBJCDDWeakValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -925,7 +914,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD4019621D689F200F92106 /* _OBJCDDFloat80Value.m in Sources */,
 				9C953B6A21785C6A008089A8 /* ObjCDynamicPropertyAccessors-UIKit.m in Sources */,
 				9C8C26C52175EBE800CF0E4A /* ObjCDynamicPropertyAccessors.m in Sources */,
 				9C953B6121785C5C008089A8 /* ObjCDynamicPropertyAccessors-AVFoundation.m in Sources */,
