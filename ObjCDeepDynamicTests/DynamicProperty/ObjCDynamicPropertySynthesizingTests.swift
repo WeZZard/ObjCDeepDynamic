@@ -92,7 +92,7 @@ class ObjCDynamicPropertySynthesizingSwiftTests: XCTestCase {
         XCTAssertEqual(dynamicObject.float32Value, 0)
         XCTAssertEqual(dynamicObject.float64Value, 0)
         XCTAssertEqual(dynamicObject.doubleValue, 0)
-        #if arch(x86_64) || arch(i386)
+        #if TARGET_OS_IOS
         XCTAssertEqual(dynamicObject.float80Value, 0)
         #endif
         
@@ -100,7 +100,7 @@ class ObjCDynamicPropertySynthesizingSwiftTests: XCTestCase {
         dynamicObject.float32Value = 2
         dynamicObject.float64Value = 3
         dynamicObject.doubleValue = 4
-        #if arch(x86_64) || arch(i386)
+        #if TARGET_OS_IOS
         dynamicObject.float80Value = 5
         #endif
         
@@ -108,7 +108,7 @@ class ObjCDynamicPropertySynthesizingSwiftTests: XCTestCase {
         XCTAssertEqual(dynamicObject.float32Value, 2)
         XCTAssertEqual(dynamicObject.float64Value, 3)
         XCTAssertEqual(dynamicObject.doubleValue, 4)
-        #if arch(x86_64) || arch(i386)
+        #if TARGET_OS_IOS
         XCTAssertEqual(dynamicObject.float80Value, 5)
         #endif
     }
